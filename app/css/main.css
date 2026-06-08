@@ -1,0 +1,77 @@
+:root {
+  --pw-bg: #ffffff;
+  --pw-surface: #f5f5f5;
+  --pw-border: #dddddd;
+  --pw-border-subtle: #cccccc;
+  --pw-text: #111111;
+  --pw-text-secondary: #555555;
+  --pw-text-muted: #aaaaaa;
+  --pw-text-mono: #222222;
+  --pw-hover: #eeeeee;
+
+  --pw-green: #3B6D11;
+  --pw-green-bg: #EAF3DE;
+  --pw-green-border: #97C459;
+  --pw-green-text: #27500A;
+
+  --pw-red: #A32D2D;
+  --pw-red-bg: #FCEBEB;
+  --pw-red-border: #E24B4A;
+
+  --pw-blue-bg: #E6F1FB;
+  --pw-blue-border: #378ADD;
+  --pw-blue-text: #0C447C;
+
+  --pw-amber-bg: #FAEEDA;
+  --pw-amber-border: #BA7517;
+  --pw-amber-text: #633806;
+  --pw-amber: #BA7517;
+
+  --pw-teal-bg: #E1F5EE;
+  --pw-teal-border: #1D9E75;
+  --pw-teal-text: #085041;
+
+  --pw-purple-bg: #EEEDFE;
+  --pw-purple-border: #7F77DD;
+  --pw-purple-text: #3C3489;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pw-bg: #111111;
+    --pw-surface: #1e1e1e;
+    --pw-border: #2e2e2e;
+    --pw-border-subtle: #3a3a3a;
+    --pw-text: #f0f0f0;
+    --pw-text-secondary: #aaaaaa;
+    --pw-text-muted: #666666;
+    --pw-text-mono: #dddddd;
+    --pw-hover: #2a2a2a;
+
+    --pw-green: #97C459;
+    --pw-green-bg: #17300A;
+    --pw-green-border: #3B6D11;
+    --pw-green-text: #C0DD97;
+
+    --pw-red: #F09595;
+    --pw-red-bg: #2D0F0F;
+    --pw-red-border: #A32D2D;
+
+    --pw-blue-bg: #042C53;
+    --pw-blue-border: #185FA5;
+    --pw-blue-text: #B5D4F4;
+
+    --pw-amber-bg: #412402;
+    --pw-amber-border: #854F0B;
+    --pw-amber-text: #FAC775;
+    --pw-amber: #EF9F27;
+
+    --pw-teal-bg: #04342C;
+    --pw-teal-border: #0F6E56;
+    --pw-teal-text: #9FE1CB;
+
+    --pw-purple-bg: #26215C;
+    --pw-purple-border: #534AB7;
+    --pw-purple-text: #CECBF6;
+  }
+}
