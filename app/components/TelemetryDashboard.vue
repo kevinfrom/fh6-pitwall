@@ -1,14 +1,20 @@
 <script setup lang="ts">
 type Mode = 'race' | 'drift' | 'drag' | 'spotter'
+type SpeedUnit = 'kmh' | 'mph'
+type PowerUnit = 'kw' | 'hp'
+type TorqueUnit = 'nm' | 'lbft'
+type TemperatureUnit = 'c' | 'f'
 
 const mode = ref<Mode>('race')
+const speedUnitSetting = ref<SpeedUnit>('kmh')
+const powerUnitSetting = ref<PowerUnit>('hp')
+const torqueUnitSetting = ref<TorqueUnit>('nm')
+const temperatureUnitSetting = ref<TemperatureUnit>('c')
 
 const {
   data,
-  connected,
-  speedKmh,
+  streamState,
   rpmPercent,
-  powerKw,
   throttlePct,
   brakePct,
   yawRate,
@@ -55,16 +61,154 @@ const steerPercent = computed(() => {
   if (!data.value) return 50
   return 50 + (data.value.steer / 127) * 46
 })
+const speedDisplay = computed(() => {
+  if (!data.value) return 0
+  const speedKmh = data.value.speed * 3.6
+  return Math.round(speedUnitSetting.value === 'kmh' ? speedKmh : speedKmh * 0.621371)
+})
+const speedUnit = computed(() => speedUnitSetting.value === 'kmh' ? 'km/h' : 'mph')
+const powerDisplay = computed(() => {
+  if (!data.value) return 0
+  return Math.round(powerUnitSetting.value === 'kw' ? data.value.power / 1000 : data.value.power / 745.7)
+})
+const powerUnit = computed(() => powerUnitSetting.value === 'kw' ? 'kW' : 'hp')
+const torqueDisplay = computed(() => {
+  if (!data.value) return 0
+  return Math.round(torqueUnitSetting.value === 'nm' ? data.value.torque : data.value.torque * 0.737562)
+})
+const torqueUnit = computed(() => torqueUnitSetting.value === 'nm' ? 'Nm' : 'lb-ft')
+const distanceDisplay = computed(() => {
+  if (!data.value) return 0
+  if (speedUnitSetting.value === 'kmh') return Math.round(data.value.distanceTraveled)
+  return Number((data.value.distanceTraveled / 1609.344).toFixed(2))
+})
+const distanceUnit = computed(() => speedUnitSetting.value === 'kmh' ? 'm' : 'mi')
+const tempUnit = computed(() => temperatureUnitSetting.value === 'c' ? 'C' : 'F')
+function formatTemperature(tempC: number): string {
+  const value = temperatureUnitSetting.value === 'c' ? tempC : (tempC * 9) / 5 + 32
+  return `${Math.round(value)}°${tempUnit.value}`
+}
+const carClassLabel = computed(() => {
+  if (!data.value) return '--'
+  return ['D', 'C', 'B', 'A', 'S1', 'S2', 'X', 'X'][data.value.carClass] ?? String(data.value.carClass)
+})
+const drivetrainLabel = computed(() => {
+  if (!data.value) return '--'
+  return ['FWD', 'RWD', 'AWD'][data.value.drivetrainType] ?? String(data.value.drivetrainType)
+})
+const streamStatusLabel = computed(() => {
+  if (streamState.value === 'live') return 'Live'
+  if (streamState.value === 'connected') return 'Connected - waiting for data'
+  return 'Disconnected'
+})
 const showHelp = ref(false)
+const showSettings = ref(false)
 const { public: { fh6UdpPort } } = useRuntimeConfig()
 </script>
 
 <template>
   <div class="dashboard">
     <div class="status-bar">
-      <span :class="['status-dot', connected ? 'status-dot--live' : 'status-dot--off']" />
-      <span>{{ connected ? 'Live' : 'Waiting for data…' }}</span>
+      <span :class="['status-dot', `status-dot--${streamState}`]" />
+      <span>{{ streamStatusLabel }}</span>
+      <a
+        class="github-link"
+        href="https://github.com/kevinfrom/ph6-pitwall"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open GitHub repository"
+      >
+        <svg viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.67 0 8.2c0 3.62 2.29 6.69 5.47 7.77.4.08.55-.18.55-.4 0-.2-.01-.84-.01-1.53-2.01.38-2.53-.5-2.69-.96-.09-.24-.48-.96-.82-1.15-.28-.16-.68-.55-.01-.56.63-.01 1.08.59 1.23.83.72 1.24 1.87.89 2.33.68.07-.53.28-.89.51-1.1-1.78-.21-3.64-.91-3.64-4.04 0-.89.31-1.62.82-2.19-.08-.21-.36-1.04.08-2.16 0 0 .67-.22 2.2.84A7.42 7.42 0 0 1 8 3.96c.68 0 1.36.09 2 .27 1.53-1.06 2.2-.84 2.2-.84.44 1.12.16 1.95.08 2.16.51.57.82 1.3.82 2.19 0 3.14-1.91 3.83-3.73 4.04.29.26.55.76.55 1.54 0 1.1-.01 1.99-.01 2.26 0 .22.15.48.55.4A8.14 8.14 0 0 0 16 8.2C16 3.67 12.42 0 8 0Z" />
+        </svg>
+      </a>
+      <button class="settings-btn" aria-label="Settings" @click="showSettings = true">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19.43 12.98c.04-.32.07-.65.07-.98s-.02-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1a7.28 7.28 0 0 0-1.69-.98l-.38-2.65A.49.49 0 0 0 14 2h-4a.49.49 0 0 0-.49.42l-.38 2.65c-.61.24-1.18.56-1.69.98l-2.49-1a.5.5 0 0 0-.61.22l-2 3.46c-.12.22-.07.49.12.64l2.11 1.65c-.04.32-.08.65-.08.98s.03.66.08.98l-2.11 1.65a.5.5 0 0 0-.12.64l2 3.46c.13.22.39.31.61.22l2.49-1c.51.4 1.08.73 1.69.98l.38 2.65c.04.24.25.42.49.42h4c.24 0 .45-.18.49-.42l.38-2.65c.61-.25 1.18-.58 1.69-.98l2.49 1c.22.09.48 0 .61-.22l2-3.46a.5.5 0 0 0-.12-.64l-2.11-1.65ZM12 15.5A3.5 3.5 0 1 1 12 8a3.5 3.5 0 0 1 0 7.5Z" />
+        </svg>
+      </button>
       <button class="help-btn" aria-label="Setup help" @click="showHelp = !showHelp">?</button>
+    </div>
+
+    <div v-if="showSettings" class="modal-backdrop" @click.self="showSettings = false">
+      <section class="settings-modal" aria-modal="true" role="dialog" aria-labelledby="settings-title">
+        <div class="modal-title-row">
+          <h2 id="settings-title">Settings</h2>
+          <button class="modal-close" aria-label="Close settings" @click="showSettings = false">x</button>
+        </div>
+
+        <p class="section-label">Units</p>
+        <div class="unit-settings">
+          <div class="unit-setting-row">
+            <span>Speed</span>
+            <div class="segmented-control" role="group" aria-label="Speed unit">
+              <button
+                :class="['segment-btn', speedUnitSetting === 'kmh' && 'segment-btn--active']"
+                @click="speedUnitSetting = 'kmh'"
+              >
+                km/h
+              </button>
+              <button
+                :class="['segment-btn', speedUnitSetting === 'mph' && 'segment-btn--active']"
+                @click="speedUnitSetting = 'mph'"
+              >
+                mph
+              </button>
+            </div>
+          </div>
+          <div class="unit-setting-row">
+            <span>Power</span>
+            <div class="segmented-control" role="group" aria-label="Power unit">
+              <button
+                :class="['segment-btn', powerUnitSetting === 'hp' && 'segment-btn--active']"
+                @click="powerUnitSetting = 'hp'"
+              >
+                hp
+              </button>
+              <button
+                :class="['segment-btn', powerUnitSetting === 'kw' && 'segment-btn--active']"
+                @click="powerUnitSetting = 'kw'"
+              >
+                kW
+              </button>
+            </div>
+          </div>
+          <div class="unit-setting-row">
+            <span>Torque</span>
+            <div class="segmented-control" role="group" aria-label="Torque unit">
+              <button
+                :class="['segment-btn', torqueUnitSetting === 'nm' && 'segment-btn--active']"
+                @click="torqueUnitSetting = 'nm'"
+              >
+                Nm
+              </button>
+              <button
+                :class="['segment-btn', torqueUnitSetting === 'lbft' && 'segment-btn--active']"
+                @click="torqueUnitSetting = 'lbft'"
+              >
+                lb-ft
+              </button>
+            </div>
+          </div>
+          <div class="unit-setting-row">
+            <span>Temperature</span>
+            <div class="segmented-control" role="group" aria-label="Temperature unit">
+              <button
+                :class="['segment-btn', temperatureUnitSetting === 'c' && 'segment-btn--active']"
+                @click="temperatureUnitSetting = 'c'"
+              >
+                °C
+              </button>
+              <button
+                :class="['segment-btn', temperatureUnitSetting === 'f' && 'segment-btn--active']"
+                @click="temperatureUnitSetting = 'f'"
+              >
+                °F
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div v-if="showHelp" class="help-panel">
@@ -75,6 +219,30 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="help-row"><span class="help-key">Data Out IP Port</span><span class="help-val">{{ fh6UdpPort }}</span></div>
       <p class="help-note">Data is only sent while actively driving — not in menus or paused.</p>
       <button class="help-close" @click="showHelp = false">Got it</button>
+    </div>
+
+    <p class="section-label">Current car</p>
+    <div class="car-info-grid">
+      <div class="car-info-item">
+        <span>Ordinal</span>
+        <strong>{{ data?.carOrdinal ?? '--' }}</strong>
+      </div>
+      <div class="car-info-item">
+        <span>Class</span>
+        <strong>{{ carClassLabel }} {{ data?.carPerformanceIndex ?? '' }}</strong>
+      </div>
+      <div class="car-info-item">
+        <span>Drivetrain</span>
+        <strong>{{ drivetrainLabel }}</strong>
+      </div>
+      <div class="car-info-item">
+        <span>Cylinders</span>
+        <strong>{{ data?.numCylinders ?? '--' }}</strong>
+      </div>
+      <div class="car-info-item">
+        <span>Group</span>
+        <strong>{{ data?.carGroup ?? '--' }}</strong>
+      </div>
     </div>
 
     <div class="mode-switcher">
@@ -110,7 +278,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="metric-grid">
         <div class="metric">
           <p class="metric-label">Speed</p>
-          <p class="metric-value">{{ speedKmh }}<span class="metric-unit">km/h</span></p>
+          <p class="metric-value">{{ speedDisplay }}<span class="metric-unit">{{ speedUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">RPM</p>
@@ -119,12 +287,12 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
         <div class="metric">
           <p class="metric-label">Power</p>
           <!-- TODO: Verify this matches what FH6 actually sends once connected to real data.
-               See powerKw in useTelemetry.ts for details and fallback formula. -->
-          <p class="metric-value">{{ powerKw }}<span class="metric-unit">kW</span></p>
+               See useTelemetry.ts for details and fallback formula. -->
+          <p class="metric-value">{{ powerDisplay }}<span class="metric-unit">{{ powerUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">Torque</p>
-          <p class="metric-value">{{ data ? Math.round(data.torque) : '0' }}<span class="metric-unit">Nm</span></p>
+          <p class="metric-value">{{ torqueDisplay }}<span class="metric-unit">{{ torqueUnit }}</span></p>
         </div>
       </div>
 
@@ -171,7 +339,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
         <div v-for="(key, label) in { FL: 'tireTempFrontLeft', FR: 'tireTempFrontRight', RL: 'tireTempRearLeft', RR: 'tireTempRearRight' }" :key="label" class="tire-card">
           <p class="tire-pos">{{ label }}</p>
           <p class="tire-temp" :style="{ color: tireTempColor(data?.[key] ?? 0) }">
-            {{ data ? Math.round(data[key]) : '--' }}°
+            {{ data ? formatTemperature(data[key]) : '--' }}
           </p>
         </div>
       </div>
@@ -199,7 +367,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="metric-grid">
         <div class="metric">
           <p class="metric-label">Speed</p>
-          <p class="metric-value">{{ speedKmh }}<span class="metric-unit">km/h</span></p>
+          <p class="metric-value">{{ speedDisplay }}<span class="metric-unit">{{ speedUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">RPM</p>
@@ -252,7 +420,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
         <div v-for="(key, label) in { FL: 'tireTempFrontLeft', FR: 'tireTempFrontRight', RL: 'tireTempRearLeft', RR: 'tireTempRearRight' }" :key="label" class="tire-card">
           <p class="tire-pos">{{ label }}</p>
           <p class="tire-temp" :style="{ color: tireTempColor(data?.[key] ?? 0) }">
-            {{ data ? Math.round(data[key]) : '--' }}°
+            {{ data ? formatTemperature(data[key]) : '--' }}
           </p>
         </div>
       </div>
@@ -261,7 +429,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="metric-grid">
         <div class="metric">
           <p class="metric-label">Distance</p>
-          <p class="metric-value">{{ data ? Math.round(data.distanceTraveled) : '0' }}<span class="metric-unit">m</span></p>
+          <p class="metric-value">{{ distanceDisplay }}<span class="metric-unit">{{ distanceUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">Race time</p>
@@ -275,7 +443,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="metric-grid">
         <div class="metric">
           <p class="metric-label">Speed</p>
-          <p class="metric-value">{{ speedKmh }}<span class="metric-unit">km/h</span></p>
+          <p class="metric-value">{{ speedDisplay }}<span class="metric-unit">{{ speedUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">Gear</p>
@@ -367,7 +535,7 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
       <div class="metric-grid">
         <div class="metric">
           <p class="metric-label">Speed</p>
-          <p class="metric-value">{{ speedKmh }}<span class="metric-unit">km/h</span></p>
+          <p class="metric-value">{{ speedDisplay }}<span class="metric-unit">{{ speedUnit }}</span></p>
         </div>
         <div class="metric">
           <p class="metric-label">Gear</p>
@@ -383,8 +551,14 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
 
 .status-bar { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--pw-text-muted); margin-bottom: 1rem; }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--pw-text-muted); }
+.status-dot--connected { background: var(--pw-amber); }
+.status-dot--disconnected { background: var(--pw-text-muted); }
 .status-dot--live { background: var(--pw-green); }
-.status-dot--off { background: var(--pw-text-muted); }
+
+.car-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; margin-bottom: 1.25rem; }
+.car-info-item { background: var(--pw-surface); border-radius: 8px; padding: 0.6rem 0.75rem; min-width: 0; }
+.car-info-item span { display: block; font-size: 10px; color: var(--pw-text-muted); margin-bottom: 3px; }
+.car-info-item strong { display: block; font-family: monospace; font-size: 13px; font-weight: 600; color: var(--pw-text-mono); overflow-wrap: anywhere; }
 
 .mode-switcher { display: flex; gap: 8px; margin-bottom: 1.25rem; }
 .mode-btn { flex: 1; padding: 8px; border-radius: 8px; border: 0.5px solid var(--pw-border-subtle); background: transparent; font-size: 13px; font-weight: 500; cursor: pointer; }
@@ -439,9 +613,29 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
 .angle-value { font-size: 48px; font-weight: 500; margin: 0; line-height: 1; color: var(--pw-amber); }
 .yaw-value { font-size: 28px; font-weight: 500; margin: 4px 0 0; }
 
-.help-btn { margin-left: auto; width: 20px; height: 20px; border-radius: 50%; border: 0.5px solid var(--pw-border-subtle); background: transparent; font-size: 12px; font-weight: 500; color: var(--pw-text-muted); cursor: pointer; line-height: 1; padding: 0; }
+.github-link,
+.settings-btn,
+.help-btn { width: 20px; height: 20px; border-radius: 50%; border: 0.5px solid var(--pw-border-subtle); background: transparent; color: var(--pw-text-muted); cursor: pointer; line-height: 1; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+.github-link { margin-left: auto; }
+.github-link svg { width: 13px; height: 13px; fill: currentColor; }
+.settings-btn svg { width: 14px; height: 14px; fill: currentColor; }
+.help-btn { font-size: 12px; font-weight: 500; }
+.github-link:hover,
+.settings-btn:hover,
 .help-btn:hover { background: var(--pw-surface); }
 
+.modal-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center; padding: 1rem; background: rgb(0 0 0 / 0.45); }
+.settings-modal { width: min(360px, 100%); max-height: min(640px, 90vh); overflow: auto; background: var(--pw-bg); border: 0.5px solid var(--pw-border); border-radius: 8px; padding: 1rem; box-shadow: 0 18px 60px rgb(0 0 0 / 0.25); }
+.modal-title-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.modal-title-row h2 { font-size: 16px; font-weight: 600; margin: 0; }
+.modal-close { width: 24px; height: 24px; border-radius: 50%; border: 0.5px solid var(--pw-border-subtle); background: transparent; color: var(--pw-text-muted); cursor: pointer; line-height: 1; padding: 0; }
+.modal-close:hover { background: var(--pw-surface); }
+.unit-settings { display: grid; gap: 8px; }
+.unit-setting-row { display: grid; grid-template-columns: minmax(92px, 1fr) minmax(148px, 1.4fr); align-items: center; gap: 10px; font-size: 13px; }
+.unit-setting-row > span { color: var(--pw-text-muted); }
+.segmented-control { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; background: var(--pw-surface); border-radius: 8px; border: 0.5px solid var(--pw-border); }
+.segment-btn { min-height: 32px; border: 0; border-radius: 6px; background: transparent; color: var(--pw-text-secondary); font-size: 13px; font-weight: 500; cursor: pointer; }
+.segment-btn--active { background: var(--pw-bg); color: var(--pw-text); box-shadow: 0 1px 2px rgb(0 0 0 / 0.08); }
 .help-panel { background: var(--pw-surface); border-radius: 8px; border: 0.5px solid var(--pw-border); padding: 1rem; margin-bottom: 1.25rem; }
 .help-title { font-size: 14px; font-weight: 500; margin: 0 0 0.5rem; }
 .help-body { font-size: 13px; color: var(--pw-text-secondary); margin: 0 0 0.75rem; }

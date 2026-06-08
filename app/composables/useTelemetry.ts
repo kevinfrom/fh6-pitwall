@@ -1,8 +1,11 @@
 import type { TelemetryPacket } from '~/types/telemetry'
 
+export type TelemetryStreamState = 'disconnected' | 'connected' | 'live'
+
 export function useTelemetry() {
   const data = ref<TelemetryPacket | null>(null)
-  const connected = ref(false)
+  const streamState = ref<TelemetryStreamState>('disconnected')
+  const connected = computed(() => streamState.value !== 'disconnected')
   let source: EventSource | null = null
 
   function connect() {
@@ -10,16 +13,17 @@ export function useTelemetry() {
 
     source = new EventSource('/api/telemetry/stream')
 
-    source.onopen = () => {
-      connected.value = true
-    }
+    source.addEventListener('ready', () => {
+      streamState.value = 'connected'
+    })
 
     source.onmessage = (event) => {
       data.value = JSON.parse(event.data) as TelemetryPacket
+      streamState.value = 'live'
     }
 
     source.onerror = () => {
-      connected.value = false
+      streamState.value = 'disconnected'
       // EventSource auto-reconnects; nothing to do here
     }
   }
@@ -27,7 +31,7 @@ export function useTelemetry() {
   function disconnect() {
     source?.close()
     source = null
-    connected.value = false
+    streamState.value = 'disconnected'
   }
 
   onMounted(connect)
@@ -141,6 +145,7 @@ export function useTelemetry() {
   return {
     data,
     connected,
+    streamState,
     speedKmh,
     rpmPercent,
     powerKw,
