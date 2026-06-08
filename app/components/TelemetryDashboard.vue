@@ -5,6 +5,25 @@ type PowerUnit = 'kw' | 'hp'
 type TorqueUnit = 'nm' | 'lbft'
 type TemperatureUnit = 'c' | 'f'
 
+const STORAGE_KEYS = {
+  mode: 'fh6-pitwall:mode',
+  speedUnit: 'fh6-pitwall:speed-unit',
+  powerUnit: 'fh6-pitwall:power-unit',
+  torqueUnit: 'fh6-pitwall:torque-unit',
+  temperatureUnit: 'fh6-pitwall:temperature-unit',
+} as const
+
+function readStoredValue<T extends string>(
+  key: string,
+  allowed: readonly T[],
+  fallback: T,
+): T {
+  if (!import.meta.client) return fallback
+
+  const stored = window.localStorage.getItem(key)
+  return stored && allowed.includes(stored as T) ? (stored as T) : fallback
+}
+
 const CAR_CLASS_LABELS: Record<number, string> = {
   0: 'D',
   1: 'C',
@@ -144,6 +163,22 @@ const streamStatusLabel = computed(() => {
 const showHelp = ref(false)
 const showSettings = ref(false)
 const { public: { fh6UdpPort } } = useRuntimeConfig()
+
+onMounted(() => {
+  mode.value = readStoredValue(STORAGE_KEYS.mode, ['race', 'drift', 'drag', 'spotter'] as const, mode.value)
+  speedUnitSetting.value = readStoredValue(STORAGE_KEYS.speedUnit, ['kmh', 'mph'] as const, speedUnitSetting.value)
+  powerUnitSetting.value = readStoredValue(STORAGE_KEYS.powerUnit, ['kw', 'hp'] as const, powerUnitSetting.value)
+  torqueUnitSetting.value = readStoredValue(STORAGE_KEYS.torqueUnit, ['nm', 'lbft'] as const, torqueUnitSetting.value)
+  temperatureUnitSetting.value = readStoredValue(STORAGE_KEYS.temperatureUnit, ['c', 'f'] as const, temperatureUnitSetting.value)
+})
+
+if (import.meta.client) {
+  watch(mode, (value) => window.localStorage.setItem(STORAGE_KEYS.mode, value))
+  watch(speedUnitSetting, (value) => window.localStorage.setItem(STORAGE_KEYS.speedUnit, value))
+  watch(powerUnitSetting, (value) => window.localStorage.setItem(STORAGE_KEYS.powerUnit, value))
+  watch(torqueUnitSetting, (value) => window.localStorage.setItem(STORAGE_KEYS.torqueUnit, value))
+  watch(temperatureUnitSetting, (value) => window.localStorage.setItem(STORAGE_KEYS.temperatureUnit, value))
+}
 
 watch(carIdentityKey, async (identityKey) => {
   if (!identityKey) {
