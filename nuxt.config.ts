@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
+  nitro: {
+    experimental: {
+      tasks: true
+    }
+  },
   runtimeConfig: {
     public: {
       fh6UdpPort: '' // NUXT_PUBLIC_FH6_UDP_PORT

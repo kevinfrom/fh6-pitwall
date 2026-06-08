@@ -8,7 +8,7 @@ export function useTelemetry() {
   function connect() {
     if (import.meta.server) return
 
-    source = new EventSource('/telemetry/stream')
+    source = new EventSource('/api/telemetry/stream')
 
     source.onopen = () => {
       connected.value = true
@@ -154,4 +154,3 @@ export function useTelemetry() {
     lapDelta,
   }
 }
-
