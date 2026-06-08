@@ -5,11 +5,39 @@ type PowerUnit = 'kw' | 'hp'
 type TorqueUnit = 'nm' | 'lbft'
 type TemperatureUnit = 'c' | 'f'
 
+const CAR_CLASS_LABELS: Record<number, string> = {
+  0: 'D',
+  1: 'C',
+  2: 'B',
+  3: 'A',
+  4: 'S1',
+  5: 'S2',
+  6: 'X',
+  7: 'X',
+}
+
+interface CarLookupResponse {
+  carOrdinal: number | null
+  carGroup: number | null
+  car: {
+    id: number
+    displayName: string
+    year: number | null
+    make: string | null
+    model: string | null
+    asset: string | null
+    confidence: string | null
+  } | null
+  carGroupName: string | null
+}
+
 const mode = ref<Mode>('race')
 const speedUnitSetting = ref<SpeedUnit>('kmh')
 const powerUnitSetting = ref<PowerUnit>('hp')
 const torqueUnitSetting = ref<TorqueUnit>('nm')
 const temperatureUnitSetting = ref<TemperatureUnit>('c')
+const carDetails = ref<CarLookupResponse | null>(null)
+let carDetailsRequestId = 0
 
 const {
   data,
@@ -90,11 +118,23 @@ function formatTemperature(tempC: number): string {
 }
 const carClassLabel = computed(() => {
   if (!data.value) return '--'
-  return ['D', 'C', 'B', 'A', 'S1', 'S2', 'X', 'X'][data.value.carClass] ?? String(data.value.carClass)
+  return CAR_CLASS_LABELS[data.value.carClass] ?? String(data.value.carClass)
 })
 const drivetrainLabel = computed(() => {
   if (!data.value) return '--'
   return ['FWD', 'RWD', 'AWD'][data.value.drivetrainType] ?? String(data.value.drivetrainType)
+})
+const carIdentityKey = computed(() => {
+  if (!data.value) return ''
+  return `${data.value.carOrdinal}:${data.value.carGroup}`
+})
+const carDisplayName = computed(() => {
+  if (carDetails.value?.car) return carDetails.value.car.displayName
+  return data.value ? `Car #${data.value.carOrdinal}` : '--'
+})
+const carGroupDisplayName = computed(() => {
+  if (carDetails.value?.carGroupName) return carDetails.value.carGroupName
+  return data.value ? `Group ${data.value.carGroup}` : '--'
 })
 const streamStatusLabel = computed(() => {
   if (streamState.value === 'live') return 'Live'
@@ -104,6 +144,37 @@ const streamStatusLabel = computed(() => {
 const showHelp = ref(false)
 const showSettings = ref(false)
 const { public: { fh6UdpPort } } = useRuntimeConfig()
+
+watch(carIdentityKey, async (identityKey) => {
+  if (!identityKey) {
+    carDetails.value = null
+    return
+  }
+
+  const [ordinal, group] = identityKey.split(':')
+  const requestId = ++carDetailsRequestId
+  carDetails.value = null
+
+  try {
+    const details = await $fetch<CarLookupResponse>('/api/cars/lookup', {
+      query: { ordinal, group },
+    })
+
+    if (requestId === carDetailsRequestId) {
+      carDetails.value = details
+    }
+  }
+  catch {
+    if (requestId === carDetailsRequestId) {
+      carDetails.value = {
+        carOrdinal: Number(ordinal),
+        carGroup: Number(group),
+        car: null,
+        carGroupName: null,
+      }
+    }
+  }
+})
 </script>
 
 <template>
@@ -222,26 +293,16 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
     </div>
 
     <p class="section-label">Current car</p>
-    <div class="car-info-grid">
-      <div class="car-info-item">
-        <span>Ordinal</span>
-        <strong>{{ data?.carOrdinal ?? '--' }}</strong>
+    <div class="car-card">
+      <div class="car-card-main">
+        <p class="car-name">{{ carDisplayName }}</p>
+        <p class="car-subtitle">{{ carGroupDisplayName }}</p>
       </div>
-      <div class="car-info-item">
-        <span>Class</span>
-        <strong>{{ carClassLabel }} {{ data?.carPerformanceIndex ?? '' }}</strong>
-      </div>
-      <div class="car-info-item">
-        <span>Drivetrain</span>
-        <strong>{{ drivetrainLabel }}</strong>
-      </div>
-      <div class="car-info-item">
-        <span>Cylinders</span>
-        <strong>{{ data?.numCylinders ?? '--' }}</strong>
-      </div>
-      <div class="car-info-item">
-        <span>Group</span>
-        <strong>{{ data?.carGroup ?? '--' }}</strong>
+      <div class="car-card-meta">
+        <span><strong>{{ data?.carOrdinal ?? '--' }}</strong><small>ID</small></span>
+        <span><strong>{{ carClassLabel }} {{ data?.carPerformanceIndex ?? '--' }}</strong><small>Class</small></span>
+        <span><strong>{{ drivetrainLabel }}</strong><small>Drive</small></span>
+        <span><strong>{{ data?.numCylinders ?? '--' }}</strong><small>Cyl</small></span>
       </div>
     </div>
 
@@ -555,10 +616,14 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
 .status-dot--disconnected { background: var(--pw-text-muted); }
 .status-dot--live { background: var(--pw-green); }
 
-.car-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; margin-bottom: 1.25rem; }
-.car-info-item { background: var(--pw-surface); border-radius: 8px; padding: 0.6rem 0.75rem; min-width: 0; }
-.car-info-item span { display: block; font-size: 10px; color: var(--pw-text-muted); margin-bottom: 3px; }
-.car-info-item strong { display: block; font-family: monospace; font-size: 13px; font-weight: 600; color: var(--pw-text-mono); overflow-wrap: anywhere; }
+.car-card { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, 1fr); align-items: center; gap: 12px; background: var(--pw-surface); border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 1.25rem; }
+.car-card-main { min-width: 0; }
+.car-name { margin: 0; color: var(--pw-text); font-size: 15px; font-weight: 600; line-height: 1.2; overflow-wrap: anywhere; }
+.car-subtitle { margin: 3px 0 0; color: var(--pw-text-muted); font-size: 12px; line-height: 1.2; overflow-wrap: anywhere; }
+.car-card-meta { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.car-card-meta span { min-width: 0; border-left: 0.5px solid var(--pw-border); padding-left: 8px; }
+.car-card-meta strong { display: block; color: var(--pw-text-mono); font-family: monospace; font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
+.car-card-meta small { display: block; margin-top: 2px; color: var(--pw-text-muted); font-size: 9px; text-transform: uppercase; }
 
 .mode-switcher { display: flex; gap: 8px; margin-bottom: 1.25rem; }
 .mode-btn { flex: 1; padding: 8px; border-radius: 8px; border: 0.5px solid var(--pw-border-subtle); background: transparent; font-size: 13px; font-weight: 500; cursor: pointer; }
@@ -645,4 +710,9 @@ const { public: { fh6UdpPort } } = useRuntimeConfig()
 .help-note { font-size: 12px; color: var(--pw-text-muted); margin: 0.75rem 0 0.75rem; border-top: 0.5px solid var(--pw-border); padding-top: 0.75rem; }
 .help-close { width: 100%; padding: 8px; border-radius: 8px; border: 0.5px solid var(--pw-border-subtle); background: transparent; font-size: 13px; cursor: pointer; }
 .help-close:hover { background: var(--pw-hover); }
+
+@media (max-width: 560px) {
+  .car-card { grid-template-columns: 1fr; }
+  .car-card-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 </style>

@@ -1,0 +1,4390 @@
+{
+  "source": "https://forza.net/fh6cars",
+  "updated": "2026-05-19",
+  "matched": 626,
+  "unmatched": 12,
+  "groups": {
+    "247": {
+      "display_name": "1969 Toyota 2000GT",
+      "car_type": "Rare Classics",
+      "car_class": "377 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "249": {
+      "display_name": "1962 Ferrari 250 GTO",
+      "car_type": "Classic Racers",
+      "car_class": "494 C",
+      "country": "Italy",
+      "score": 10
+    },
+    "251": {
+      "display_name": "1954 Mercedes-Benz 300 SL Coupé",
+      "car_type": "Rare Classics",
+      "car_class": "388 D",
+      "country": "Germany",
+      "score": 16
+    },
+    "253": {
+      "display_name": "1994 Ferrari F355 Berlinetta",
+      "car_type": "Retro Supercars",
+      "car_class": "588 B",
+      "country": "Italy",
+      "score": 12
+    },
+    "255": {
+      "display_name": "1992 Ferrari 512 TR",
+      "car_type": "Retro Supercars",
+      "car_class": "615 A",
+      "country": "Italy",
+      "score": 10
+    },
+    "260": {
+      "display_name": "1973 Porsche 911 Carrera RS",
+      "car_type": "Rare Classics",
+      "car_class": "490 C",
+      "country": "Germany",
+      "score": 15
+    },
+    "261": {
+      "display_name": "1995 Porsche 911 GT2",
+      "car_type": "Retro Supercars",
+      "car_class": "644 A",
+      "country": "Germany",
+      "score": 25
+    },
+    "262": {
+      "display_name": "2004 Porsche 911 GT3",
+      "car_type": "Retro Supercars",
+      "car_class": "674 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "265": {
+      "display_name": "1982 Porsche 911 Turbo 3.3",
+      "car_type": "Retro Supercars",
+      "car_class": "550 B",
+      "country": "Germany",
+      "score": 15
+    },
+    "268": {
+      "display_name": "1989 Porsche 944 Turbo",
+      "car_type": "Retro Sports Cars",
+      "car_class": "539 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "269": {
+      "display_name": "1987 Porsche 959",
+      "car_type": "Retro Supercars",
+      "car_class": "661 A",
+      "country": "Germany",
+      "score": 22
+    },
+    "281": {
+      "display_name": "1968 Plymouth Barracuda Formula S",
+      "car_type": "Classic Muscle",
+      "car_class": "445 C",
+      "country": "USA",
+      "score": 12
+    },
+    "289": {
+      "display_name": "1969 Chevrolet Camaro Super Sport Coupe",
+      "car_type": "Classic Muscle",
+      "car_class": "471 C",
+      "country": "USA",
+      "score": 12
+    },
+    "292": {
+      "display_name": "2003 Porsche Carrera GT",
+      "car_type": "Retro Supercars",
+      "car_class": "758 S1",
+      "country": "Germany",
+      "score": 25
+    },
+    "295": {
+      "display_name": "2003 Toyota Celica Sport Specialty II",
+      "car_type": "Retro Sports Cars",
+      "car_class": "433 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "296": {
+      "display_name": "1998 TVR Cerbera Speed 12",
+      "car_type": "Retro Supercars",
+      "car_class": "770 S1",
+      "country": "UK",
+      "score": 12
+    },
+    "299": {
+      "display_name": "1970 Chevrolet Chevelle Super Sport 454",
+      "car_type": "Classic Muscle",
+      "car_class": "424 C",
+      "country": "USA",
+      "score": 12
+    },
+    "302": {
+      "display_name": "2004 Honda Civic Type R",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "480 C",
+      "country": "Japan",
+      "score": 28
+    },
+    "306": {
+      "display_name": "1965 Shelby Cobra 427 S/C",
+      "car_type": "Rare Classics",
+      "car_class": "582 B",
+      "country": "USA",
+      "score": 15
+    },
+    "309": {
+      "display_name": "1995 Volkswagen Corrado VR6",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "426 C",
+      "country": "Germany",
+      "score": 12
+    },
+    "312": {
+      "display_name": "1967 Chevrolet Corvette Stingray 427",
+      "car_type": "Classic Muscle",
+      "car_class": "510 B",
+      "country": "USA",
+      "score": 15
+    },
+    "314": {
+      "display_name": "2002 Chevrolet Corvette Z06",
+      "car_type": "Retro Muscle",
+      "car_class": "602 A",
+      "country": "USA",
+      "score": 12
+    },
+    "315": {
+      "display_name": "1970 Chevrolet Corvette ZR-1",
+      "car_type": "Classic Muscle",
+      "car_class": "497 C",
+      "country": "USA",
+      "score": 28
+    },
+    "316": {
+      "display_name": "1988 Lamborghini Countach LP5000 QV",
+      "car_type": "Retro Supercars",
+      "car_class": "622 A",
+      "country": "Italy",
+      "score": 12
+    },
+    "320": {
+      "display_name": "1991 Honda CR-X SiR",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "465 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "323": {
+      "display_name": "1992 Lancia Delta HF Integrale EVO",
+      "car_type": "Retro Rally",
+      "car_class": "489 C",
+      "country": "Italy",
+      "score": 12
+    },
+    "324": {
+      "display_name": "1999 Lamborghini Diablo GTR",
+      "car_type": "Extreme Track Toys",
+      "car_class": "823 S2",
+      "country": "Italy",
+      "score": 25
+    },
+    "325": {
+      "display_name": "1997 Lamborghini Diablo SV",
+      "car_type": "Retro Supercars",
+      "car_class": "649 A",
+      "country": "Italy",
+      "score": 25
+    },
+    "326": {
+      "display_name": "1969 Ferrari Dino 246 GT",
+      "car_type": "Rare Classics",
+      "car_class": "428 C",
+      "country": "Italy",
+      "score": 15
+    },
+    "327": {
+      "display_name": "1995 Mitsubishi Eclipse GSX",
+      "car_type": "Retro Sports Cars",
+      "car_class": "436 C",
+      "country": "Japan",
+      "score": 25
+    },
+    "333": {
+      "display_name": "2002 Ferrari Enzo Ferrari",
+      "car_type": "Retro Supercars",
+      "car_class": "755 S1",
+      "country": "Italy",
+      "score": 12
+    },
+    "336": {
+      "display_name": "1961 Jaguar E-type",
+      "car_type": "Rare Classics",
+      "car_class": "414 C",
+      "country": "UK",
+      "score": 9
+    },
+    "338": {
+      "display_name": "1997 McLaren F1 GT",
+      "car_type": "Retro Supercars",
+      "car_class": "769 S1",
+      "country": "UK",
+      "score": 12
+    },
+    "340": {
+      "display_name": "1987 Ferrari F40",
+      "car_type": "Retro Supercars",
+      "car_class": "678 A",
+      "country": "Italy",
+      "score": 10
+    },
+    "342": {
+      "display_name": "1995 Ferrari F50",
+      "car_type": "Retro Supercars",
+      "car_class": "678 A",
+      "country": "Italy",
+      "score": 10
+    },
+    "343": {
+      "display_name": "1969 Nissan Fairlady Z 432",
+      "car_type": "Classic Sports Cars",
+      "car_class": "369 D",
+      "country": "Japan",
+      "score": 18
+    },
+    "344": {
+      "display_name": "2003 Nissan Fairlady Z",
+      "car_type": "Retro Sports Cars",
+      "car_class": "534 B",
+      "country": "Japan",
+      "score": 25
+    },
+    "345": {
+      "display_name": "1994 Nissan Fairlady Z Version S Twin Turbo",
+      "car_type": "Retro Sports Cars",
+      "car_class": "497 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "348": {
+      "display_name": "2005 Ford GT",
+      "car_type": "Retro Supercars",
+      "car_class": "676 A",
+      "country": "USA",
+      "score": 22
+    },
+    "353": {
+      "display_name": "1992 Volkswagen Golf Gti 16v Mk2",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "308 D",
+      "country": "Germany",
+      "score": 15
+    },
+    "357": {
+      "display_name": "1997 Mitsubishi GTO",
+      "car_type": "Retro Sports Cars",
+      "car_class": "495 C",
+      "country": "Japan",
+      "score": 22
+    },
+    "358": {
+      "display_name": "1984 Ferrari 288 GTO",
+      "car_type": "Retro Supercars",
+      "car_class": "643 A",
+      "country": "Italy",
+      "score": 12
+    },
+    "363": {
+      "display_name": "1998 Subaru Impreza 22B-STi Version",
+      "car_type": "Retro Rally",
+      "car_class": "600 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "364": {
+      "display_name": "2004 Subaru IMPREZA WRX STI",
+      "car_type": "Modern Rally",
+      "car_class": "552 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "365": {
+      "display_name": "2005 Subaru IMPREZA WRX STI",
+      "car_type": "Modern Rally",
+      "car_class": "570 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "368": {
+      "display_name": "2001 Acura Integra Type R",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "471 C",
+      "country": "USA",
+      "score": 28
+    },
+    "374": {
+      "display_name": "2006 Mitsubishi Lancer Evolution IX MR",
+      "car_type": "Modern Rally",
+      "car_class": "521 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "378": {
+      "display_name": "2004 Mitsubishi Lancer Evolution VIII MR",
+      "car_type": "Modern Rally",
+      "car_class": "555 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "379": {
+      "display_name": "2005 Subaru LEGACY B4 2.0 GT",
+      "car_type": "Retro Super Saloons",
+      "car_class": "549 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "382": {
+      "display_name": "1997 BMW M3",
+      "car_type": "Retro Super Saloons",
+      "car_class": "549 B",
+      "country": "Germany",
+      "score": 9
+    },
+    "383": {
+      "display_name": "2005 BMW M3",
+      "car_type": "Retro Super Saloons",
+      "car_class": "554 B",
+      "country": "Germany",
+      "score": 9
+    },
+    "391": {
+      "display_name": "2004 Maserati MC12",
+      "car_type": "Retro Supercars",
+      "car_class": "751 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "398": {
+      "display_name": "1995 Toyota MR2 GT",
+      "car_type": "Retro Sports Cars",
+      "car_class": "522 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "405": {
+      "display_name": "2000 Ford Mustang SVT Cobra R",
+      "car_type": "Retro Muscle",
+      "car_class": "528 B",
+      "country": "USA",
+      "score": 18
+    },
+    "411": {
+      "display_name": "2005 Honda NSX-R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "570 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "412": {
+      "display_name": "1992 Honda #21 Hardrace/JDMYard Civic WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "913 R",
+      "country": "Japan",
+      "score": 9
+    },
+    "417": {
+      "display_name": "1987 Buick Regal GNX",
+      "car_type": "Retro Muscle",
+      "car_class": "454 C",
+      "country": "USA",
+      "score": 25
+    },
+    "419": {
+      "display_name": "2006 Audi RS 4",
+      "car_type": "Modern Super Saloons",
+      "car_class": "593 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "420": {
+      "display_name": "2003 Audi RS 6",
+      "car_type": "Retro Super Saloons",
+      "car_class": "556 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "422": {
+      "display_name": "2002 Acura RSX Type S",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "462 C",
+      "country": "USA",
+      "score": 28
+    },
+    "423": {
+      "display_name": "1990 Mazda Savanna RX-7",
+      "car_type": "Retro Sports Cars",
+      "car_class": "451 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "427": {
+      "display_name": "2003 Honda S2000",
+      "car_type": "Modern Sports Cars",
+      "car_class": "503 B",
+      "country": "Japan",
+      "score": 10
+    },
+    "433": {
+      "display_name": "2005 TVR Sagaris",
+      "car_type": "Retro Sports Cars",
+      "car_class": "672 A",
+      "country": "UK",
+      "score": 22
+    },
+    "440": {
+      "display_name": "1994 Nissan Silvia K's",
+      "car_type": "Retro Sports Cars",
+      "car_class": "499 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "455": {
+      "display_name": "1985 Toyota Sprinter Trueno GT Apex",
+      "car_type": "Retro Sports Cars",
+      "car_class": "376 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "458": {
+      "display_name": "1974 Lancia Stratos HF Stradale",
+      "car_type": "Classic Rally",
+      "car_class": "483 C",
+      "country": "Italy",
+      "score": 12
+    },
+    "460": {
+      "display_name": "1992 Toyota Supra 2.0 GT",
+      "car_type": "Retro Sports Cars",
+      "car_class": "453 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "461": {
+      "display_name": "1998 Toyota Supra RZ",
+      "car_type": "Retro Sports Cars",
+      "car_class": "529 B",
+      "country": "Japan",
+      "score": 25
+    },
+    "483": {
+      "display_name": "1999 Dodge Viper GTS ACR",
+      "car_type": "Retro Muscle",
+      "car_class": "598 B",
+      "country": "USA",
+      "score": 12
+    },
+    "489": {
+      "display_name": "1993 Jaguar XJ220",
+      "car_type": "Retro Supercars",
+      "car_class": "676 A",
+      "country": "UK",
+      "score": 10
+    },
+    "513": {
+      "display_name": "1969 Dodge Charger Daytona HEMI",
+      "car_type": "Classic Muscle",
+      "car_class": "479 C",
+      "country": "USA",
+      "score": 12
+    },
+    "567": {
+      "display_name": "1998 Nissan #23 Pennzoil NISMO Skyline GT-R",
+      "car_type": "Retro Racers",
+      "car_class": "848 S2",
+      "country": "Japan",
+      "score": 12
+    },
+    "568": {
+      "display_name": "1998 Mercedes-Benz AMG CLK GTR",
+      "car_type": "Retro Supercars",
+      "car_class": "713 S1",
+      "country": "Germany",
+      "score": 10
+    },
+    "569": {
+      "display_name": "2005 Honda NSX-R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "570 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "615": {
+      "display_name": "2007 Peugeot 207 Super 2000",
+      "car_type": "Rally Monsters",
+      "car_class": "632 A",
+      "country": "France",
+      "score": 28
+    },
+    "625": {
+      "display_name": "2007 Honda Civic Type R",
+      "car_type": "Hot Hatch",
+      "car_class": "454 C",
+      "country": "Japan",
+      "score": 28
+    },
+    "633": {
+      "display_name": "1984 Audi Sport quattro",
+      "car_type": "Retro Rally",
+      "car_class": "526 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "634": {
+      "display_name": "1980 Renault 5 Turbo",
+      "car_type": "Retro Rally",
+      "car_class": "417 C",
+      "country": "France",
+      "score": 25
+    },
+    "637": {
+      "display_name": "1967 Lamborghini Miura P400",
+      "car_type": "Rare Classics",
+      "car_class": "505 B",
+      "country": "Italy",
+      "score": 12
+    },
+    "639": {
+      "display_name": "1970 Dodge Challenger R/T",
+      "car_type": "Classic Muscle",
+      "car_class": "443 C",
+      "country": "USA",
+      "score": 12
+    },
+    "641": {
+      "display_name": "1998 Nissan #23 Pennzoil NISMO Skyline GT-R",
+      "car_type": "Retro Racers",
+      "car_class": "848 S2",
+      "country": "Japan",
+      "score": 8
+    },
+    "1006": {
+      "display_name": "2005 Ferrari FXX",
+      "car_type": "Extreme Track Toys",
+      "car_class": "900 S2",
+      "country": "Italy",
+      "score": 22
+    },
+    "1007": {
+      "display_name": "2008 Koenigsegg CCGT",
+      "car_type": "Extreme Track Toys",
+      "car_class": "900 S2",
+      "country": "Sweden",
+      "score": 22
+    },
+    "1009": {
+      "display_name": "2008 Mitsubishi Lancer Evolution X GSR",
+      "car_type": "Modern Rally",
+      "car_class": "534 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "1011": {
+      "display_name": "2008 BMW Z4 M Coupé",
+      "car_type": "Modern Sports Cars",
+      "car_class": "579 B",
+      "country": "Germany",
+      "score": 12
+    },
+    "1020": {
+      "display_name": "1996 Ferrari F50 GT",
+      "car_type": "Extreme Track Toys",
+      "car_class": "949 R",
+      "country": "Italy",
+      "score": 12
+    },
+    "1022": {
+      "display_name": "2007 Ferrari 430 Scuderia",
+      "car_type": "Modern Supercars",
+      "car_class": "702 S1",
+      "country": "Italy",
+      "score": 15
+    },
+    "1023": {
+      "display_name": "1989 Ferrari F40 Competizione",
+      "car_type": "Retro Racers",
+      "car_class": "948 R",
+      "country": "Italy",
+      "score": 12
+    },
+    "1032": {
+      "display_name": "2007 Alfa Romeo 8C Competizione",
+      "car_type": "GT Cars",
+      "car_class": "635 A",
+      "country": "Italy",
+      "score": 6
+    },
+    "1034": {
+      "display_name": "1994 Toyota Celica GT-Four ST205",
+      "car_type": "Retro Rally",
+      "car_class": "479 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "1040": {
+      "display_name": "1981 BMW M1",
+      "car_type": "Retro Supercars",
+      "car_class": "510 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "1041": {
+      "display_name": "1993 Ford Mustang SVT Cobra R",
+      "car_type": "Retro Muscle",
+      "car_class": "432 C",
+      "country": "USA",
+      "score": 15
+    },
+    "1042": {
+      "display_name": "1971 Nissan Skyline 2000GT-R",
+      "car_type": "Classic Sports Cars",
+      "car_class": "380 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "1045": {
+      "display_name": "1987 Pontiac Firebird Trans Am GTA",
+      "car_type": "Retro Muscle",
+      "car_class": "382 D",
+      "country": "USA",
+      "score": 18
+    },
+    "1046": {
+      "display_name": "2008 Dodge Viper SRT-10 ACR",
+      "car_type": "Track Toys",
+      "car_class": "735 S1",
+      "country": "USA",
+      "score": 31
+    },
+    "1052": {
+      "display_name": "2006 Dodge Ram SRT-10",
+      "car_type": "Modern Muscle",
+      "car_class": "547 B",
+      "country": "USA",
+      "score": 28
+    },
+    "1059": {
+      "display_name": "2008 BMW M3",
+      "car_type": "Modern Super Saloons",
+      "car_class": "608 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "1060": {
+      "display_name": "2008 Subaru IMPREZA WRX STI",
+      "car_type": "Modern Rally",
+      "car_class": "539 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "1063": {
+      "display_name": "1969 Dodge Charger Daytona HEMI",
+      "car_type": "Classic Muscle",
+      "car_class": "479 C",
+      "country": "USA",
+      "score": 15
+    },
+    "1064": {
+      "display_name": "2015 Chevrolet Camaro Z/28",
+      "car_type": "Track Toys",
+      "car_class": "695 A",
+      "country": "USA",
+      "score": 13
+    },
+    "1069": {
+      "display_name": "1970 Chevrolet Corvette ZR-1",
+      "car_type": "Classic Muscle",
+      "car_class": "497 C",
+      "country": "USA",
+      "score": 13
+    },
+    "1086": {
+      "display_name": "2009 Ford Focus RS",
+      "car_type": "Super Hot Hatch",
+      "car_class": "551 B",
+      "country": "USA",
+      "score": 25
+    },
+    "1090": {
+      "display_name": "2009 Mercedes-Benz SL 65 AMG Black Series",
+      "car_type": "Super GT",
+      "car_class": "699 A",
+      "country": "Germany",
+      "score": 19
+    },
+    "1093": {
+      "display_name": "1960 Chevrolet Corvette",
+      "car_type": "Classic Sports Cars",
+      "car_class": "428 C",
+      "country": "USA",
+      "score": 22
+    },
+    "1103": {
+      "display_name": "2010 Nissan 370Z",
+      "car_type": "Modern Sports Cars",
+      "car_class": "568 B",
+      "country": "Japan",
+      "score": 10
+    },
+    "1104": {
+      "display_name": "1970 Datsun 510",
+      "car_type": "Classic Sports Cars",
+      "car_class": "143 D",
+      "country": "Japan",
+      "score": 8
+    },
+    "1105": {
+      "display_name": "1964 Aston Martin DB5",
+      "car_type": "Rare Classics",
+      "car_class": "416 C",
+      "country": "UK",
+      "score": 10
+    },
+    "1108": {
+      "display_name": "1987 Ford Sierra Cosworth RS500",
+      "car_type": "Retro Super Saloons",
+      "car_class": "484 C",
+      "country": "USA",
+      "score": 9
+    },
+    "1110": {
+      "display_name": "1994 Mazda MX-5 Miata",
+      "car_type": "Retro Sports Cars",
+      "car_class": "329 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "1124": {
+      "display_name": "1980 Abarth Fiat 131",
+      "car_type": "Classic Rally",
+      "car_class": "399 D",
+      "country": "Italy",
+      "score": 12
+    },
+    "1126": {
+      "display_name": "2009 BMW M5",
+      "car_type": "Modern Super Saloons",
+      "car_class": "595 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "1130": {
+      "display_name": "2011 McLaren 12C Coupé",
+      "car_type": "Modern Supercars",
+      "car_class": "727 S1",
+      "country": "UK",
+      "score": 9
+    },
+    "1131": {
+      "display_name": "2010 Ferrari 599XX",
+      "car_type": "Extreme Track Toys",
+      "car_class": "840 S2",
+      "country": "Italy",
+      "score": 9
+    },
+    "1150": {
+      "display_name": "1965 Alfa Romeo Giulia Sprint GTA Stradale",
+      "car_type": "Rare Classics",
+      "car_class": "379 D",
+      "country": "Italy",
+      "score": 13
+    },
+    "1155": {
+      "display_name": "1965 Shelby Cobra Daytona Coupe",
+      "car_type": "Classic Racers",
+      "car_class": "515 B",
+      "country": "USA",
+      "score": 15
+    },
+    "1171": {
+      "display_name": "2010 Ferrari 599XX",
+      "car_type": "Extreme Track Toys",
+      "car_class": "840 S2",
+      "country": "Italy",
+      "score": 10
+    },
+    "1173": {
+      "display_name": "2010 Lamborghini Murciélago LP 670-4 SV",
+      "car_type": "Modern Supercars",
+      "car_class": "707 S1",
+      "country": "Italy",
+      "score": 15
+    },
+    "1175": {
+      "display_name": "2010 Pagani Zonda Cinque Roadster",
+      "car_type": "Hypercars",
+      "car_class": "812 S2",
+      "country": "Italy",
+      "score": 12
+    },
+    "1184": {
+      "display_name": "2009 Audi RS 6",
+      "car_type": "Modern Super Saloons",
+      "car_class": "598 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "1200": {
+      "display_name": "2009 Audi R8 LMS",
+      "car_type": "Extreme Track Toys",
+      "car_class": "810 S2",
+      "country": "Germany",
+      "score": 12
+    },
+    "1204": {
+      "display_name": "2010 Renault Megane RS 250",
+      "car_type": "Super Hot Hatch",
+      "car_class": "538 B",
+      "country": "France",
+      "score": 28
+    },
+    "1215": {
+      "display_name": "2000 Nissan #36 Dream Project S15 Silvia WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "996 R",
+      "country": "Japan",
+      "score": 9
+    },
+    "1216": {
+      "display_name": "2011 Audi RS 3 Sportback",
+      "car_type": "Super Hot Hatch",
+      "car_class": "565 B",
+      "country": "Germany",
+      "score": 15
+    },
+    "1220": {
+      "display_name": "2010 Audi TT RS Coupé",
+      "car_type": "Modern Sports Cars",
+      "car_class": "593 B",
+      "country": "Germany",
+      "score": 9
+    },
+    "1221": {
+      "display_name": "2010 Mazda Mazdaspeed 3",
+      "car_type": "Hot Hatch",
+      "car_class": "536 B",
+      "country": "Japan",
+      "score": 25
+    },
+    "1229": {
+      "display_name": "2008 Mazda Furai",
+      "car_type": "Extreme Track Toys",
+      "car_class": "926 R",
+      "country": "Japan",
+      "score": 22
+    },
+    "1231": {
+      "display_name": "2010 Volkswagen Golf R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "526 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "1253": {
+      "display_name": "2010 Noble M600",
+      "car_type": "Modern Supercars",
+      "car_class": "793 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "1260": {
+      "display_name": "2010 Lexus LFA",
+      "car_type": "Modern Supercars",
+      "car_class": "699 A",
+      "country": "USA",
+      "score": 22
+    },
+    "1269": {
+      "display_name": "1973 BMW 2002 Turbo",
+      "car_type": "Classic Sports Cars",
+      "car_class": "424 C",
+      "country": "Germany",
+      "score": 25
+    },
+    "1270": {
+      "display_name": "1982 DeLorean DMC-12",
+      "car_type": "Retro Sports Cars",
+      "car_class": "357 D",
+      "country": "USA",
+      "score": 25
+    },
+    "1272": {
+      "display_name": "1992 Ford Escort RS Cosworth",
+      "car_type": "Retro Rally",
+      "car_class": "456 C",
+      "country": "USA",
+      "score": 12
+    },
+    "1273": {
+      "display_name": "1997 Honda Civic Type R",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "430 C",
+      "country": "Japan",
+      "score": 28
+    },
+    "1276": {
+      "display_name": "1977 Pontiac Firebird Trans Am",
+      "car_type": "Classic Muscle",
+      "car_class": "312 D",
+      "country": "USA",
+      "score": 28
+    },
+    "1277": {
+      "display_name": "1971 Plymouth Cuda 426 HEMI",
+      "car_type": "Classic Muscle",
+      "car_class": "441 C",
+      "country": "USA",
+      "score": 11
+    },
+    "1278": {
+      "display_name": "1973 Ford XB Falcon GT",
+      "car_type": "Classic Muscle",
+      "car_class": "422 C",
+      "country": "USA",
+      "score": 12
+    },
+    "1282": {
+      "display_name": "1994 Nissan Fairlady Z Version S Twin Turbo",
+      "car_type": "Retro Sports Cars",
+      "car_class": "497 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "1291": {
+      "display_name": "1970 Chevrolet El Camino Super Sport 454",
+      "car_type": "Utility Heroes",
+      "car_class": "430 C",
+      "country": "USA",
+      "score": 15
+    },
+    "1293": {
+      "display_name": "1987 Ford Sierra Cosworth RS500",
+      "car_type": "Retro Super Saloons",
+      "car_class": "484 C",
+      "country": "USA",
+      "score": 10
+    },
+    "1294": {
+      "display_name": "1992 GMC Typhoon",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "435 C",
+      "country": "USA",
+      "score": 9
+    },
+    "1296": {
+      "display_name": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
+      "car_type": "Retro Super Saloons",
+      "car_class": "460 C",
+      "country": "Germany",
+      "score": 16
+    },
+    "1299": {
+      "display_name": "1983 Volvo 242 Turbo Evolution",
+      "car_type": "Classic Rally",
+      "car_class": "435 C",
+      "country": "Sweden",
+      "score": 15
+    },
+    "1300": {
+      "display_name": "1964 Chevrolet Impala Super Sport 409",
+      "car_type": "Rods and Customs",
+      "car_class": "427 C",
+      "country": "USA",
+      "score": 12
+    },
+    "1301": {
+      "display_name": "1956 Jaguar D-Type",
+      "car_type": "Classic Racers",
+      "car_class": "506 B",
+      "country": "UK",
+      "score": 9
+    },
+    "1314": {
+      "display_name": "1993 McLaren F1",
+      "car_type": "Retro Supercars",
+      "car_class": "713 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "1323": {
+      "display_name": "2011 Subaru WRX STI",
+      "car_type": "Modern Rally",
+      "car_class": "547 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "1330": {
+      "display_name": "2015 Chevrolet Camaro Z/28",
+      "car_type": "Track Toys",
+      "car_class": "695 A",
+      "country": "USA",
+      "score": 13
+    },
+    "1332": {
+      "display_name": "1968 Dodge Dart HEMI Super Stock",
+      "car_type": "Classic Muscle",
+      "car_class": "540 B",
+      "country": "USA",
+      "score": 12
+    },
+    "1335": {
+      "display_name": "1991 Mazda #55 Mazda 787B",
+      "car_type": "Retro Racers",
+      "car_class": "988 R",
+      "country": "Japan",
+      "score": 13
+    },
+    "1350": {
+      "display_name": "2011 BMW X5 M",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "546 B",
+      "country": "Germany",
+      "score": 12
+    },
+    "1352": {
+      "display_name": "1970 Dodge Challenger R/T",
+      "car_type": "Classic Muscle",
+      "car_class": "443 C",
+      "country": "USA",
+      "score": 9
+    },
+    "1355": {
+      "display_name": "1965 Ford Mustang GT Coupe",
+      "car_type": "Classic Muscle",
+      "car_class": "388 D",
+      "country": "USA",
+      "score": 12
+    },
+    "1367": {
+      "display_name": "2003 BMW M5",
+      "car_type": "Retro Super Saloons",
+      "car_class": "580 B",
+      "country": "Germany",
+      "score": 9
+    },
+    "1368": {
+      "display_name": "1988 BMW M3",
+      "car_type": "Retro Super Saloons",
+      "car_class": "474 C",
+      "country": "Germany",
+      "score": 9
+    },
+    "1369": {
+      "display_name": "2009 Pagani Zonda R",
+      "car_type": "Extreme Track Toys",
+      "car_class": "918 R",
+      "country": "Italy",
+      "score": 12
+    },
+    "1376": {
+      "display_name": "1999 Lotus Elise Series 1 Sport 190",
+      "car_type": "Retro Sports Cars",
+      "car_class": "589 B",
+      "country": "UK",
+      "score": 12
+    },
+    "1379": {
+      "display_name": "1996 Chevrolet Impala Super Sport",
+      "car_type": "Retro Muscle",
+      "car_class": "407 C",
+      "country": "USA",
+      "score": 12
+    },
+    "1381": {
+      "display_name": "1992 Mitsubishi Galant VR-4",
+      "car_type": "Retro Rally",
+      "car_class": "431 C",
+      "country": "Japan",
+      "score": 28
+    },
+    "1382": {
+      "display_name": "1990 Subaru LEGACY RS",
+      "car_type": "Retro Rally",
+      "car_class": "406 C",
+      "country": "Japan",
+      "score": 25
+    },
+    "1388": {
+      "display_name": "2012 BMW M5",
+      "car_type": "Modern Super Saloons",
+      "car_class": "652 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "1392": {
+      "display_name": "2011 Lamborghini Sesto Elemento",
+      "car_type": "Extreme Track Toys",
+      "car_class": "871 S2",
+      "country": "Italy",
+      "score": 25
+    },
+    "1393": {
+      "display_name": "1992 Alfa Romeo 155 Q4",
+      "car_type": "Retro Super Saloons",
+      "car_class": "439 C",
+      "country": "Italy",
+      "score": 13
+    },
+    "1394": {
+      "display_name": "1992 GMC Typhoon",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "435 C",
+      "country": "USA",
+      "score": 7
+    },
+    "1395": {
+      "display_name": "1989 Toyota MR2 SC",
+      "car_type": "Retro Sports Cars",
+      "car_class": "397 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "1397": {
+      "display_name": "2011 Koenigsegg Agera",
+      "car_type": "Hypercars",
+      "car_class": "810 S2",
+      "country": "Sweden",
+      "score": 22
+    },
+    "1398": {
+      "display_name": "2012 Lamborghini Aventador LP700-4",
+      "car_type": "Hypercars",
+      "car_class": "753 S1",
+      "country": "Italy",
+      "score": 9
+    },
+    "1417": {
+      "display_name": "2011 Audi RS 5 Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "613 A",
+      "country": "Germany",
+      "score": 15
+    },
+    "1418": {
+      "display_name": "1995 BMW M5",
+      "car_type": "Retro Super Saloons",
+      "car_class": "516 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "1426": {
+      "display_name": "2011 Mazda RX-8 R3",
+      "car_type": "Modern Sports Cars",
+      "car_class": "508 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "1428": {
+      "display_name": "2011 Volkswagen Scirocco R",
+      "car_type": "Hot Hatch",
+      "car_class": "548 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "1429": {
+      "display_name": "1969 Chevrolet Nova Super Sport 396",
+      "car_type": "Classic Muscle",
+      "car_class": "431 C",
+      "country": "USA",
+      "score": 12
+    },
+    "1435": {
+      "display_name": "1963 Volkswagen Beetle",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "Germany",
+      "score": 7
+    },
+    "1459": {
+      "display_name": "1957 Chevrolet Bel Air",
+      "car_type": "Rods and Customs",
+      "car_class": "320 D",
+      "country": "USA",
+      "score": 25
+    },
+    "1477": {
+      "display_name": "2011 Ford Transit SuperSportVan",
+      "car_type": "Utility Heroes",
+      "car_class": "235 D",
+      "country": "USA",
+      "score": 12
+    },
+    "1478": {
+      "display_name": "1986 Audi #2 Audi Sport quattro S1",
+      "car_type": "Rally Monsters",
+      "car_class": "726 S1",
+      "country": "Germany",
+      "score": 18
+    },
+    "1480": {
+      "display_name": "1985 Mazda RX-7 GSL-SE",
+      "car_type": "Retro Sports Cars",
+      "car_class": "357 D",
+      "country": "Japan",
+      "score": 15
+    },
+    "1481": {
+      "display_name": "1965 Austin-Healey 3000 MkIII",
+      "car_type": "Classic Sports Cars",
+      "car_class": "352 D",
+      "country": "UK",
+      "score": 13
+    },
+    "1500": {
+      "display_name": "2012 Mercedes-Benz C 63 AMG Coupé Black Series",
+      "car_type": "Modern Super Saloons",
+      "car_class": "654 A",
+      "country": "Germany",
+      "score": 19
+    },
+    "1513": {
+      "display_name": "1997 Maserati Ghibli Cup",
+      "car_type": "Retro Sports Cars",
+      "car_class": "591 B",
+      "country": "Italy",
+      "score": 12
+    },
+    "1514": {
+      "display_name": "1973 Mazda RX-3",
+      "car_type": "Classic Sports Cars",
+      "car_class": "328 D",
+      "country": "Japan",
+      "score": 25
+    },
+    "1517": {
+      "display_name": "1992 Toyota Celica GT-Four RC ST185",
+      "car_type": "Retro Rally",
+      "car_class": "438 C",
+      "country": "Japan",
+      "score": 7
+    },
+    "1522": {
+      "display_name": "2012 Jeep Wrangler Rubicon",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "350 D",
+      "country": "USA",
+      "score": 12
+    },
+    "1529": {
+      "display_name": "1973 Ford Capri RS3100",
+      "car_type": "Classic Sports Cars",
+      "car_class": "394 D",
+      "country": "USA",
+      "score": 7
+    },
+    "1532": {
+      "display_name": "2012 Hennessey Venom GT",
+      "car_type": "Hypercars",
+      "car_class": "845 S2",
+      "country": "USA",
+      "score": 25
+    },
+    "1533": {
+      "display_name": "1977 Holden Torana A9X",
+      "car_type": "Classic Muscle",
+      "car_class": "413 C",
+      "country": "Australia",
+      "score": 12
+    },
+    "1537": {
+      "display_name": "1974 Toyota Corolla SR5",
+      "car_type": "Classic Sports Cars",
+      "car_class": "197 D",
+      "country": "Japan",
+      "score": 7
+    },
+    "1549": {
+      "display_name": "1968 Alfa Romeo 33 Stradale",
+      "car_type": "Classic Racers",
+      "car_class": "593 B",
+      "country": "Italy",
+      "score": 26
+    },
+    "1559": {
+      "display_name": "1955 Mercedes-Benz 300 SLR",
+      "car_type": "Classic Racers",
+      "car_class": "599 B",
+      "country": "Germany",
+      "score": 26
+    },
+    "1562": {
+      "display_name": "2013 SRT Viper GTS",
+      "car_type": "Modern Muscle",
+      "car_class": "707 S1",
+      "country": "USA",
+      "score": 8
+    },
+    "1564": {
+      "display_name": "1953 Chevrolet Corvette",
+      "car_type": "Classic Sports Cars",
+      "car_class": "270 D",
+      "country": "USA",
+      "score": 22
+    },
+    "1568": {
+      "display_name": "1974 Honda Civic RS",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "254 D",
+      "country": "Japan",
+      "score": 25
+    },
+    "1575": {
+      "display_name": "1988 Chevrolet Monte Carlo Super Sport",
+      "car_type": "Retro Muscle",
+      "car_class": "282 D",
+      "country": "USA",
+      "score": 15
+    },
+    "1578": {
+      "display_name": "1962 Ferrari 250 GT Berlinetta Lusso",
+      "car_type": "Rare Classics",
+      "car_class": "475 C",
+      "country": "Italy",
+      "score": 7
+    },
+    "1586": {
+      "display_name": "1962 Lincoln Continental",
+      "car_type": "Rods and Customs",
+      "car_class": "267 D",
+      "country": "USA",
+      "score": 22
+    },
+    "1587": {
+      "display_name": "1972 Mazda Cosmo 110S Series II",
+      "car_type": "Classic Sports Cars",
+      "car_class": "394 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "1591": {
+      "display_name": "1984 Peugeot 205 Turbo 16",
+      "car_type": "Retro Rally",
+      "car_class": "500 C",
+      "country": "France",
+      "score": 15
+    },
+    "1598": {
+      "display_name": "2010 BMW M3 GTS",
+      "car_type": "Track Toys",
+      "car_class": "678 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "1599": {
+      "display_name": "2012 Ferrari 599XX Evolution",
+      "car_type": "Extreme Track Toys",
+      "car_class": "894 S2",
+      "country": "Italy",
+      "score": 9
+    },
+    "1601": {
+      "display_name": "2012 Lamborghini Gallardo LP570-4 Spyder Performante",
+      "car_type": "Modern Supercars",
+      "car_class": "685 A",
+      "country": "Italy",
+      "score": 15
+    },
+    "1607": {
+      "display_name": "2013 Audi RS 4 Avant",
+      "car_type": "Modern Super Saloons",
+      "car_class": "607 A",
+      "country": "Germany",
+      "score": 28
+    },
+    "1627": {
+      "display_name": "2013 Mercedes-Benz G 65 AMG",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "530 B",
+      "country": "Germany",
+      "score": 29
+    },
+    "1650": {
+      "display_name": "1986 Honda Civic Si",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "253 D",
+      "country": "Japan",
+      "score": 25
+    },
+    "1651": {
+      "display_name": "2013 Ariel Atom 500 V8",
+      "car_type": "Extreme Track Toys",
+      "car_class": "825 S2",
+      "country": "UK",
+      "score": 12
+    },
+    "1654": {
+      "display_name": "2013 Ford Mustang Shelby GT500",
+      "car_type": "Modern Muscle",
+      "car_class": "647 A",
+      "country": "USA",
+      "score": 12
+    },
+    "1655": {
+      "display_name": "2013 Subaru BRZ",
+      "car_type": "Modern Sports Cars",
+      "car_class": "463 C",
+      "country": "Japan",
+      "score": 22
+    },
+    "1658": {
+      "display_name": "2013 Mercedes-Benz A 45 AMG",
+      "car_type": "Super Hot Hatch",
+      "car_class": "582 B",
+      "country": "Germany",
+      "score": 29
+    },
+    "1661": {
+      "display_name": "1986 Lancia Delta S4",
+      "car_type": "Retro Rally",
+      "car_class": "564 B",
+      "country": "Italy",
+      "score": 12
+    },
+    "1662": {
+      "display_name": "1965 MINI Cooper S",
+      "car_type": "Classic Rally",
+      "car_class": "158 D",
+      "country": "UK",
+      "score": 25
+    },
+    "1667": {
+      "display_name": "2013 McLaren P1",
+      "car_type": "Hypercars",
+      "car_class": "848 S2",
+      "country": "UK",
+      "score": 10
+    },
+    "1668": {
+      "display_name": "1969 Ford Mustang Boss 302",
+      "car_type": "Classic Muscle",
+      "car_class": "468 C",
+      "country": "USA",
+      "score": 12
+    },
+    "2002": {
+      "display_name": "2012 Nissan GT-R Black Edition (R35)",
+      "car_type": "Modern Supercars",
+      "car_class": "703 S1",
+      "country": "Japan",
+      "score": 15
+    },
+    "2003": {
+      "display_name": "2013 MINI X-Raid All4 Racing Countryman",
+      "car_type": "Offroad",
+      "car_class": "523 B",
+      "country": "UK",
+      "score": 9
+    },
+    "2004": {
+      "display_name": "2013 Mazda MX-5",
+      "car_type": "Modern Sports Cars",
+      "car_class": "432 C",
+      "country": "Japan",
+      "score": 25
+    },
+    "2006": {
+      "display_name": "1995 Chevrolet Corvette ZR-1",
+      "car_type": "Retro Muscle",
+      "car_class": "576 B",
+      "country": "USA",
+      "score": 28
+    },
+    "2007": {
+      "display_name": "2013 Toyota 86",
+      "car_type": "Modern Sports Cars",
+      "car_class": "460 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "2009": {
+      "display_name": "2013 Audi RS 7 Sportback",
+      "car_type": "Modern Super Saloons",
+      "car_class": "619 A",
+      "country": "Germany",
+      "score": 15
+    },
+    "2010": {
+      "display_name": "2013 Audi R8 Coupé V10 plus 5.2 FSI quattro",
+      "car_type": "Modern Supercars",
+      "car_class": "694 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "2017": {
+      "display_name": "1968 Abarth 595 esseesse",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "Italy",
+      "score": 8
+    },
+    "2019": {
+      "display_name": "2003 Ford F-150 SVT Lightning",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "474 C",
+      "country": "USA",
+      "score": 9
+    },
+    "2034": {
+      "display_name": "2013 Ferrari LaFerrari",
+      "car_type": "Hypercars",
+      "car_class": "857 S2",
+      "country": "Italy",
+      "score": 12
+    },
+    "2038": {
+      "display_name": "2014 Alfa Romeo 4C",
+      "car_type": "Modern Sports Cars",
+      "car_class": "644 A",
+      "country": "Italy",
+      "score": 11
+    },
+    "2040": {
+      "display_name": "2014 BAC Mono",
+      "car_type": "Track Toys",
+      "car_class": "766 S1",
+      "country": "UK",
+      "score": 22
+    },
+    "2042": {
+      "display_name": "2013 Lamborghini Veneno",
+      "car_type": "Hypercars",
+      "car_class": "834 S2",
+      "country": "Italy",
+      "score": 22
+    },
+    "2119": {
+      "display_name": "1984 Honda City E II",
+      "car_type": "Eclectic Domestics",
+      "car_class": "203 D",
+      "country": "Japan",
+      "score": 9
+    },
+    "2121": {
+      "display_name": "1994 Honda Prelude Si",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "410 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "2128": {
+      "display_name": "2013 Cadillac XTS Limousine",
+      "car_type": "Modern Super Saloons",
+      "car_class": "381 D",
+      "country": "USA",
+      "score": 9
+    },
+    "2133": {
+      "display_name": "2015 BMW i8",
+      "car_type": "Modern Sports Cars",
+      "car_class": "665 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "2140": {
+      "display_name": "1980 Subaru BRAT GL",
+      "car_type": "Utility Heroes",
+      "car_class": "159 D",
+      "country": "Japan",
+      "score": 7
+    },
+    "2142": {
+      "display_name": "2014 Volkswagen Golf R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "536 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "2145": {
+      "display_name": "2014 Ford Ranger T6 Rally Raid",
+      "car_type": "Offroad",
+      "car_class": "530 B",
+      "country": "USA",
+      "score": 12
+    },
+    "2147": {
+      "display_name": "1986 MG Metro 6R4",
+      "car_type": "Rally Monsters",
+      "car_class": "627 A",
+      "country": "UK",
+      "score": 12
+    },
+    "2148": {
+      "display_name": "2013 MINI X-Raid All4 Racing Countryman",
+      "car_type": "Offroad",
+      "car_class": "523 B",
+      "country": "UK",
+      "score": 9
+    },
+    "2149": {
+      "display_name": "1993 Renault Clio Williams",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "400 D",
+      "country": "France",
+      "score": 25
+    },
+    "2151": {
+      "display_name": "1963 Volkswagen Type 2 De Luxe",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "Germany",
+      "score": 15
+    },
+    "2154": {
+      "display_name": "2014 BMW M4 Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "679 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "2161": {
+      "display_name": "1965 Alfa Romeo Giulia Sprint GTA Stradale",
+      "car_type": "Rare Classics",
+      "car_class": "379 D",
+      "country": "Italy",
+      "score": 13
+    },
+    "2163": {
+      "display_name": "2015 Honda Civic Type R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "585 B",
+      "country": "Japan",
+      "score": 28
+    },
+    "2164": {
+      "display_name": "2014 Lamborghini Huracán LP 610-4",
+      "car_type": "Modern Supercars",
+      "car_class": "738 S1",
+      "country": "Italy",
+      "score": 7
+    },
+    "2168": {
+      "display_name": "2015 Subaru WRX STI",
+      "car_type": "Modern Rally",
+      "car_class": "555 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "2171": {
+      "display_name": "2005 Mazda Mazdaspeed MX-5",
+      "car_type": "Retro Sports Cars",
+      "car_class": "469 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "2175": {
+      "display_name": "2015 Lexus RC F",
+      "car_type": "Modern Super Saloons",
+      "car_class": "623 A",
+      "country": "USA",
+      "score": 9
+    },
+    "2177": {
+      "display_name": "2015 Chevrolet Camaro Z/28",
+      "car_type": "Track Toys",
+      "car_class": "695 A",
+      "country": "USA",
+      "score": 12
+    },
+    "2178": {
+      "display_name": "2001 Audi RS 4 Avant",
+      "car_type": "Retro Super Saloons",
+      "car_class": "544 B",
+      "country": "Germany",
+      "score": 15
+    },
+    "2179": {
+      "display_name": "2015 Audi S1",
+      "car_type": "Hot Hatch",
+      "car_class": "527 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "2180": {
+      "display_name": "2015 Audi RS 6 Avant",
+      "car_type": "Modern Super Saloons",
+      "car_class": "640 A",
+      "country": "Germany",
+      "score": 15
+    },
+    "2183": {
+      "display_name": "2015 Chevrolet Camaro Z/28",
+      "car_type": "Track Toys",
+      "car_class": "695 A",
+      "country": "USA",
+      "score": 28
+    },
+    "2184": {
+      "display_name": "2013 Ferrari 458 Speciale",
+      "car_type": "Track Toys",
+      "car_class": "768 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "2188": {
+      "display_name": "2015 Koenigsegg One:1",
+      "car_type": "Hypercars",
+      "car_class": "890 S2",
+      "country": "Sweden",
+      "score": 12
+    },
+    "2205": {
+      "display_name": "1970 Honda S800",
+      "car_type": "Cult Cars",
+      "car_class": "134 D",
+      "country": "Japan",
+      "score": 10
+    },
+    "2216": {
+      "display_name": "1958 Plymouth Fury",
+      "car_type": "Rods and Customs",
+      "car_class": "361 D",
+      "country": "USA",
+      "score": 22
+    },
+    "2217": {
+      "display_name": "1996 Subaru SVX",
+      "car_type": "Retro Sports Cars",
+      "car_class": "466 C",
+      "country": "Japan",
+      "score": 22
+    },
+    "2242": {
+      "display_name": "2015 Mercedes-AMG GT S",
+      "car_type": "Super GT",
+      "car_class": "691 A",
+      "country": "Germany",
+      "score": 6
+    },
+    "2262": {
+      "display_name": "2016 Cadillac ATS-V",
+      "car_type": "Modern Muscle",
+      "car_class": "601 A",
+      "country": "USA",
+      "score": 9
+    },
+    "2263": {
+      "display_name": "2015 Dodge Challenger SRT Hellcat",
+      "car_type": "Modern Muscle",
+      "car_class": "631 A",
+      "country": "USA",
+      "score": 15
+    },
+    "2267": {
+      "display_name": "2016 Mazda MX-5",
+      "car_type": "Modern Sports Cars",
+      "car_class": "499 C",
+      "country": "Japan",
+      "score": 25
+    },
+    "2270": {
+      "display_name": "1973 Nissan Skyline H/T 2000GT-R",
+      "car_type": "Classic Sports Cars",
+      "car_class": "407 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "2272": {
+      "display_name": "1969 Datsun 2000 Roadster",
+      "car_type": "Classic Sports Cars",
+      "car_class": "323 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "2290": {
+      "display_name": "2014 Porsche 918 Spyder",
+      "car_type": "Hypercars",
+      "car_class": "858 S2",
+      "country": "Germany",
+      "score": 25
+    },
+    "2297": {
+      "display_name": "2012 Porsche 911 GT3 RS 4.0",
+      "car_type": "Track Toys",
+      "car_class": "726 S1",
+      "country": "Germany",
+      "score": 15
+    },
+    "2357": {
+      "display_name": "2017 Ford Focus RS",
+      "car_type": "Super Hot Hatch",
+      "car_class": "588 B",
+      "country": "USA",
+      "score": 25
+    },
+    "2363": {
+      "display_name": "2016 Ford Mustang Shelby GT350R",
+      "car_type": "Track Toys",
+      "car_class": "721 S1",
+      "country": "USA",
+      "score": 9
+    },
+    "2372": {
+      "display_name": "1932 Ford De Luxe Five-Window Coupe",
+      "car_type": "Rods and Customs",
+      "car_class": "100 D",
+      "country": "USA",
+      "score": 7
+    },
+    "2400": {
+      "display_name": "2016 Ford Mustang Shelby GT350R",
+      "car_type": "Track Toys",
+      "car_class": "721 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "2412": {
+      "display_name": "1957 BMW Isetta 300 Export",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "Germany",
+      "score": 7
+    },
+    "2416": {
+      "display_name": "1971 Meyers Manx",
+      "car_type": "Buggies",
+      "car_class": "201 D",
+      "country": "USA",
+      "score": 22
+    },
+    "2420": {
+      "display_name": "1984 Opel Manta 400",
+      "car_type": "Rally Monsters",
+      "car_class": "576 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "2421": {
+      "display_name": "2016 Cadillac ATS-V",
+      "car_type": "Modern Muscle",
+      "car_class": "601 A",
+      "country": "USA",
+      "score": 9
+    },
+    "2430": {
+      "display_name": "2016 Ariel Nomad",
+      "car_type": "Unlimited Buggies",
+      "car_class": "601 A",
+      "country": "UK",
+      "score": 22
+    },
+    "2467": {
+      "display_name": "2015 Ferrari 488 GTB",
+      "car_type": "Modern Supercars",
+      "car_class": "770 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "2468": {
+      "display_name": "2015 Dodge Challenger SRT Hellcat",
+      "car_type": "Modern Muscle",
+      "car_class": "631 A",
+      "country": "USA",
+      "score": 9
+    },
+    "2469": {
+      "display_name": "1965 Toyota Sports 800",
+      "car_type": "Classic Sports Cars",
+      "car_class": "141 D",
+      "country": "Japan",
+      "score": 25
+    },
+    "2470": {
+      "display_name": "2016 Aston Martin Vulcan",
+      "car_type": "Extreme Track Toys",
+      "car_class": "884 S2",
+      "country": "UK",
+      "score": 23
+    },
+    "2471": {
+      "display_name": "2016 Mercedes-AMG C 63 S Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "645 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "2472": {
+      "display_name": "2016 Mercedes-AMG C 63 S Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "645 A",
+      "country": "Germany",
+      "score": 8
+    },
+    "2473": {
+      "display_name": "2016 Audi R8 V10 plus",
+      "car_type": "Modern Supercars",
+      "car_class": "731 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "2486": {
+      "display_name": "2015 Radical RXC Turbo",
+      "car_type": "Extreme Track Toys",
+      "car_class": "842 S2",
+      "country": "UK",
+      "score": 12
+    },
+    "2489": {
+      "display_name": "2016 Abarth 695 Biposto",
+      "car_type": "Hot Hatch",
+      "car_class": "540 B",
+      "country": "Italy",
+      "score": 11
+    },
+    "2494": {
+      "display_name": "2015 Land Rover Range Rover Sport SVR",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "604 A",
+      "country": "UK",
+      "score": 10
+    },
+    "2507": {
+      "display_name": "1955 Chevrolet 150 Utility Sedan",
+      "car_type": "Rods and Customs",
+      "car_class": "221 D",
+      "country": "USA",
+      "score": 28
+    },
+    "2512": {
+      "display_name": "1987 Nissan Skyline GTS-R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "432 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "2515": {
+      "display_name": "2011 Penhall The Cholla",
+      "car_type": "Unlimited Buggies",
+      "car_class": "541 B",
+      "country": "USA",
+      "score": 8
+    },
+    "2517": {
+      "display_name": "2014 Ford #11 Rockstar F-150 Trophy Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "613 A",
+      "country": "USA",
+      "score": 24
+    },
+    "2526": {
+      "display_name": "2016 Koenigsegg Regera",
+      "car_type": "Hypercars",
+      "car_class": "886 S2",
+      "country": "Sweden",
+      "score": 22
+    },
+    "2527": {
+      "display_name": "2017 Aston Martin DB11",
+      "car_type": "Super GT",
+      "car_class": "679 A",
+      "country": "UK",
+      "score": 11
+    },
+    "2534": {
+      "display_name": "1993 Porsche 968 Turbo S",
+      "car_type": "Retro Sports Cars",
+      "car_class": "594 B",
+      "country": "Germany",
+      "score": 28
+    },
+    "2535": {
+      "display_name": "1993 Porsche 928 GTS",
+      "car_type": "Retro Sports Cars",
+      "car_class": "563 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "2542": {
+      "display_name": "1965 Alfa Romeo Giulia Sprint GTA Stradale",
+      "car_type": "Rare Classics",
+      "car_class": "379 D",
+      "country": "Italy",
+      "score": 8
+    },
+    "2544": {
+      "display_name": "2016 Dodge Viper ACR",
+      "car_type": "Track Toys",
+      "car_class": "786 S1",
+      "country": "USA",
+      "score": 25
+    },
+    "2549": {
+      "display_name": "1970 Porsche #3 917 LH",
+      "car_type": "Classic Racers",
+      "car_class": "777 S1",
+      "country": "Germany",
+      "score": 28
+    },
+    "2551": {
+      "display_name": "2014 Ford FPV Limited Edition Pursuit Ute",
+      "car_type": "Utility Heroes",
+      "car_class": "563 B",
+      "country": "USA",
+      "score": 10
+    },
+    "2552": {
+      "display_name": "2015 Alumicraft Class 10 Race Car",
+      "car_type": "Unlimited Buggies",
+      "car_class": "532 B",
+      "country": "USA",
+      "score": 11
+    },
+    "2563": {
+      "display_name": "1972 Reliant Supervan III",
+      "car_type": "Utility Heroes",
+      "car_class": "100 D",
+      "country": "UK",
+      "score": 25
+    },
+    "2568": {
+      "display_name": "1969 Volkswagen Class 5/1600 Baja Bug",
+      "car_type": "Buggies",
+      "car_class": "260 D",
+      "country": "Germany",
+      "score": 18
+    },
+    "2569": {
+      "display_name": "2015 Ultima Evolution Coupe 1020",
+      "car_type": "Extreme Track Toys",
+      "car_class": "925 R",
+      "country": "UK",
+      "score": 15
+    },
+    "2577": {
+      "display_name": "2015 Ferrari F12tdf",
+      "car_type": "Super GT",
+      "car_class": "788 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "2613": {
+      "display_name": "1970 GMC Jimmy",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "416 C",
+      "country": "USA",
+      "score": 22
+    },
+    "2614": {
+      "display_name": "1968 Ford Mustang GT 2+2 Fastback",
+      "car_type": "Classic Muscle",
+      "car_class": "394 D",
+      "country": "USA",
+      "score": 15
+    },
+    "2618": {
+      "display_name": "2017 Nissan GT-R (R35)",
+      "car_type": "Modern Supercars",
+      "car_class": "709 S1",
+      "country": "Japan",
+      "score": 15
+    },
+    "2625": {
+      "display_name": "2016 Bentley Bentayga",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "612 A",
+      "country": "UK",
+      "score": 22
+    },
+    "2628": {
+      "display_name": "2016 BMW M4 GTS",
+      "car_type": "Track Toys",
+      "car_class": "711 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "2636": {
+      "display_name": "1993 Toyota #1 T100 Baja Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "584 B",
+      "country": "Japan",
+      "score": 18
+    },
+    "2647": {
+      "display_name": "2016 Pagani Huayra BC Coupe",
+      "car_type": "Hypercars",
+      "car_class": "851 S2",
+      "country": "Italy",
+      "score": 12
+    },
+    "2649": {
+      "display_name": "2010 Ford Crown Victoria Police Interceptor",
+      "car_type": "Retro Muscle",
+      "car_class": "354 D",
+      "country": "USA",
+      "score": 9
+    },
+    "2652": {
+      "display_name": "1997 Mitsubishi GTO",
+      "car_type": "Retro Sports Cars",
+      "car_class": "495 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "2654": {
+      "display_name": "2017 Mercedes-AMG GT R",
+      "car_type": "Super GT",
+      "car_class": "764 S1",
+      "country": "Germany",
+      "score": 6
+    },
+    "2659": {
+      "display_name": "1998 Nissan Silvia K's Aero",
+      "car_type": "Retro Sports Cars",
+      "car_class": "494 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "2663": {
+      "display_name": "2016 RJ Anderson #37 Polaris RZR Pro 2 Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "674 A",
+      "country": "USA",
+      "score": 22
+    },
+    "2711": {
+      "display_name": "2010 Mazda Mazdaspeed 3",
+      "car_type": "Hot Hatch",
+      "car_class": "536 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "2712": {
+      "display_name": "1992 Mitsubishi Galant VR-4",
+      "car_type": "Retro Rally",
+      "car_class": "431 C",
+      "country": "Japan",
+      "score": 18
+    },
+    "2713": {
+      "display_name": "2014 Ford #11 Rockstar F-150 Trophy Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "613 A",
+      "country": "USA",
+      "score": 8
+    },
+    "2738": {
+      "display_name": "1995 Nissan Gloria Gran Turismo",
+      "car_type": "Retro Super Saloons",
+      "car_class": "498 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "2739": {
+      "display_name": "2017 Chevrolet Camaro ZL1",
+      "car_type": "Modern Muscle",
+      "car_class": "727 S1",
+      "country": "USA",
+      "score": 9
+    },
+    "2742": {
+      "display_name": "2016 Jeep Trailcat",
+      "car_type": "Unlimited Offroad",
+      "car_class": "635 A",
+      "country": "USA",
+      "score": 7
+    },
+    "2743": {
+      "display_name": "2016 Toyota Land Cruiser Arctic Trucks AT37",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "332 D",
+      "country": "Japan",
+      "score": 18
+    },
+    "2745": {
+      "display_name": "2015 Honda Ridgeline Baja Trophy Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "580 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "2773": {
+      "display_name": "2018 Porsche Cayenne Turbo",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "638 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "2792": {
+      "display_name": "1966 Ford #2 GT40 Mk II",
+      "car_type": "Classic Racers",
+      "car_class": "666 A",
+      "country": "USA",
+      "score": 13
+    },
+    "2793": {
+      "display_name": "1967 Ferrari #24 Ferrari Spa 330 P4",
+      "car_type": "Classic Racers",
+      "car_class": "684 A",
+      "country": "Italy",
+      "score": 15
+    },
+    "2794": {
+      "display_name": "1993 Porsche 911 Turbo S Leichtbau",
+      "car_type": "Retro Sports Cars",
+      "car_class": "652 A",
+      "country": "Germany",
+      "score": 18
+    },
+    "2801": {
+      "display_name": "1983 Nissan #11 Tomica Skyline Turbo Super Silhouette",
+      "car_type": "Retro Racers",
+      "car_class": "847 S2",
+      "country": "Japan",
+      "score": 10
+    },
+    "2822": {
+      "display_name": "1985 Nissan Safari Turbo",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "123 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "2825": {
+      "display_name": "1997 Lotus Elise GT1",
+      "car_type": "Retro Supercars",
+      "car_class": "709 S1",
+      "country": "UK",
+      "score": 12
+    },
+    "2841": {
+      "display_name": "2018 Jeep Grand Cherokee Trackhawk",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "631 A",
+      "country": "USA",
+      "score": 12
+    },
+    "2870": {
+      "display_name": "2018 Honda Civic Type R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "608 A",
+      "country": "Japan",
+      "score": 28
+    },
+    "2871": {
+      "display_name": "2018 Can-Am Maverick X RS Turbo R",
+      "car_type": "UTV's",
+      "car_class": "568 B",
+      "country": "Canada",
+      "score": 13
+    },
+    "2872": {
+      "display_name": "2019 Hyundai Veloster N",
+      "car_type": "Super Hot Hatch",
+      "car_class": "532 B",
+      "country": "Korea",
+      "score": 25
+    },
+    "2902": {
+      "display_name": "2018 DeBerti Chevrolet Silverado 1500 Drift Truck",
+      "car_type": "Drift Cars",
+      "car_class": "707 S1",
+      "country": "USA",
+      "score": 8
+    },
+    "2903": {
+      "display_name": "2005 Subaru LEGACY B4 2.0 GT",
+      "car_type": "Retro Super Saloons",
+      "car_class": "549 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "2909": {
+      "display_name": "2018 Dodge Challenger SRT Demon",
+      "car_type": "Modern Muscle",
+      "car_class": "678 A",
+      "country": "USA",
+      "score": 12
+    },
+    "2910": {
+      "display_name": "2017 Koenigsegg Agera RS",
+      "car_type": "Hypercars",
+      "car_class": "890 S2",
+      "country": "Sweden",
+      "score": 25
+    },
+    "2935": {
+      "display_name": "2018 Funco Motorsports F9",
+      "car_type": "Unlimited Buggies",
+      "car_class": "752 S1",
+      "country": "USA",
+      "score": 7
+    },
+    "2937": {
+      "display_name": "2017 Ford #14 Rahal Letterman Lanigan Racing Fiesta",
+      "car_type": "Rally Monsters",
+      "car_class": "772 S1",
+      "country": "USA",
+      "score": 15
+    },
+    "2968": {
+      "display_name": "2023 Aston Martin Valkyrie",
+      "car_type": "Hypercars",
+      "car_class": "924 R",
+      "country": "UK",
+      "score": 23
+    },
+    "2974": {
+      "display_name": "2017 Ferrari 812 Superfast",
+      "car_type": "Super GT",
+      "car_class": "780 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "2986": {
+      "display_name": "2014 Mercedes-Benz Unimog U5023",
+      "car_type": "Offroad",
+      "car_class": "100 D",
+      "country": "Germany",
+      "score": 8
+    },
+    "2987": {
+      "display_name": "1962 Peel P50",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "UK",
+      "score": 10
+    },
+    "2992": {
+      "display_name": "1964 Jaguar Lightweight E-Type",
+      "car_type": "Classic Racers",
+      "car_class": "568 B",
+      "country": "UK",
+      "score": 12
+    },
+    "2993": {
+      "display_name": "2018 TVR Griffith",
+      "car_type": "Modern Sports Cars",
+      "car_class": "729 S1",
+      "country": "UK",
+      "score": 22
+    },
+    "2995": {
+      "display_name": "1983 Volkswagen Golf GTI",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "314 D",
+      "country": "Germany",
+      "score": 25
+    },
+    "2996": {
+      "display_name": "2015 Formula Drift #13 Ford Mustang",
+      "car_type": "Drift Cars",
+      "car_class": "739 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "2997": {
+      "display_name": "2016 Formula Drift #530 HSV Maloo GEN-F",
+      "car_type": "Drift Cars",
+      "car_class": "710 S1",
+      "country": "USA",
+      "score": 11
+    },
+    "3000": {
+      "display_name": "1997 Formula Drift #777 Nissan 240SX",
+      "car_type": "Drift Cars",
+      "car_class": "748 S1",
+      "country": "USA",
+      "score": 9
+    },
+    "3003": {
+      "display_name": "2006 Formula Drift #43 Dodge Viper SRT-10 ACR",
+      "car_type": "Drift Cars",
+      "car_class": "748 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3007": {
+      "display_name": "2017 Volkswagen #34 Andretti Rally Cross Beetle",
+      "car_type": "Rally Monsters",
+      "car_class": "764 S1",
+      "country": "Germany",
+      "score": 15
+    },
+    "3031": {
+      "display_name": "1985 Porsche #185 959 Prodrive Rally Raid",
+      "car_type": "Rally Monsters",
+      "car_class": "623 A",
+      "country": "Germany",
+      "score": 7
+    },
+    "3035": {
+      "display_name": "2018 Mercedes-AMG GT 4-Door Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "664 A",
+      "country": "Germany",
+      "score": 11
+    },
+    "3037": {
+      "display_name": "1989 Formula Drift #98 BMW 325i",
+      "car_type": "Drift Cars",
+      "car_class": "726 S1",
+      "country": "USA",
+      "score": 9
+    },
+    "3051": {
+      "display_name": "2017 Ford #14 Rahal Letterman Lanigan Racing Fiesta",
+      "car_type": "Rally Monsters",
+      "car_class": "772 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3055": {
+      "display_name": "2010 Jaguar C-X75",
+      "car_type": "Modern Supercars",
+      "car_class": "810 S2",
+      "country": "UK",
+      "score": 9
+    },
+    "3062": {
+      "display_name": "1970 Ferrari 512 S",
+      "car_type": "Classic Racers",
+      "car_class": "774 S1",
+      "country": "Italy",
+      "score": 25
+    },
+    "3063": {
+      "display_name": "2018 Mercedes-Benz X-Class",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "258 D",
+      "country": "Germany",
+      "score": 10
+    },
+    "3064": {
+      "display_name": "2018 Mercedes-Benz X-Class",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "258 D",
+      "country": "Germany",
+      "score": 10
+    },
+    "3072": {
+      "display_name": "2018 Porsche 911 GT2 RS",
+      "car_type": "Track Toys",
+      "car_class": "803 S2",
+      "country": "Germany",
+      "score": 15
+    },
+    "3082": {
+      "display_name": "2008 Maserati MC12 Versione Corsa",
+      "car_type": "Extreme Track Toys",
+      "car_class": "912 R",
+      "country": "Italy",
+      "score": 7
+    },
+    "3087": {
+      "display_name": "2014 McLaren 650S Spider",
+      "car_type": "Modern Supercars",
+      "car_class": "765 S1",
+      "country": "UK",
+      "score": 9
+    },
+    "3088": {
+      "display_name": "2018 DeBerti Chevrolet Silverado 1500 Drift Truck",
+      "car_type": "Drift Cars",
+      "car_class": "707 S1",
+      "country": "USA",
+      "score": 15
+    },
+    "3091": {
+      "display_name": "2019 Aston Martin Vantage",
+      "car_type": "GT Cars",
+      "car_class": "696 A",
+      "country": "UK",
+      "score": 8
+    },
+    "3107": {
+      "display_name": "2014 Mercedes-Benz G 63 AMG 6x6",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "489 C",
+      "country": "Germany",
+      "score": 19
+    },
+    "3108": {
+      "display_name": "2018 Ford Mustang RTR Spec 5",
+      "car_type": "Modern Muscle",
+      "car_class": "648 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3110": {
+      "display_name": "2013 DeBerti Jeep Wrangler Unlimited",
+      "car_type": "Unlimited Offroad",
+      "car_class": "645 A",
+      "country": "USA",
+      "score": 12
+    },
+    "3117": {
+      "display_name": "2018 Porsche 718 Cayman GTS",
+      "car_type": "Modern Sports Cars",
+      "car_class": "675 A",
+      "country": "Germany",
+      "score": 28
+    },
+    "3118": {
+      "display_name": "1970 Chevrolet Corvette ZR-1",
+      "car_type": "Classic Muscle",
+      "car_class": "497 C",
+      "country": "USA",
+      "score": 13
+    },
+    "3120": {
+      "display_name": "2019 Lamborghini Urus",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "659 A",
+      "country": "Italy",
+      "score": 22
+    },
+    "3123": {
+      "display_name": "2019 Porsche #70 Porsche Motorsport 935",
+      "car_type": "Extreme Track Toys",
+      "car_class": "853 S2",
+      "country": "Germany",
+      "score": 9
+    },
+    "3128": {
+      "display_name": "2017 Ford #25 'Brocky' Ultra4 Bronco RTR",
+      "car_type": "Unlimited Offroad",
+      "car_class": "644 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3129": {
+      "display_name": "2008 Renault Mégane R26.R",
+      "car_type": "Hot Hatch",
+      "car_class": "561 B",
+      "country": "France",
+      "score": 15
+    },
+    "3132": {
+      "display_name": "2018 MINI X-raid John Cooper Works Buggy",
+      "car_type": "Offroad",
+      "car_class": "514 B",
+      "country": "UK",
+      "score": 9
+    },
+    "3134": {
+      "display_name": "2018 Renault Megane R.S.",
+      "car_type": "Super Hot Hatch",
+      "car_class": "547 B",
+      "country": "France",
+      "score": 12
+    },
+    "3141": {
+      "display_name": "2019 Apollo Intensa Emozione",
+      "car_type": "Extreme Track Toys",
+      "car_class": "916 R",
+      "country": "Germany",
+      "score": 7
+    },
+    "3149": {
+      "display_name": "2018 Chevrolet Camaro ZL1 1LE",
+      "car_type": "Track Toys",
+      "car_class": "728 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3153": {
+      "display_name": "2019 McLaren Speedtail",
+      "car_type": "Hypercars",
+      "car_class": "835 S2",
+      "country": "UK",
+      "score": 9
+    },
+    "3156": {
+      "display_name": "2019 McLaren Speedtail",
+      "car_type": "Hypercars",
+      "car_class": "835 S2",
+      "country": "UK",
+      "score": 22
+    },
+    "3170": {
+      "display_name": "1994 Ford Supervan 3",
+      "car_type": "Track Toys",
+      "car_class": "740 S1",
+      "country": "USA",
+      "score": 25
+    },
+    "3173": {
+      "display_name": "2019 BMW Z4 Roadster",
+      "car_type": "Modern Sports Cars",
+      "car_class": "634 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "3176": {
+      "display_name": "1987 Mercedes-Benz AMG Hammer Coupe",
+      "car_type": "Retro Super Saloons",
+      "car_class": "565 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "3180": {
+      "display_name": "1991 Peugeot 205 Rallye",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "350 D",
+      "country": "France",
+      "score": 25
+    },
+    "3184": {
+      "display_name": "1977 Ford #5 Escort RS1800 MkII",
+      "car_type": "Classic Rally",
+      "car_class": "544 B",
+      "country": "USA",
+      "score": 15
+    },
+    "3185": {
+      "display_name": "2019 Aston Martin DBS Superleggera",
+      "car_type": "Super GT",
+      "car_class": "736 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "3187": {
+      "display_name": "2018 Porsche Macan LPR Rally Raid",
+      "car_type": "Offroad",
+      "car_class": "528 B",
+      "country": "Germany",
+      "score": 12
+    },
+    "3189": {
+      "display_name": "2018 Can-Am Maverick X RS Turbo R",
+      "car_type": "UTV's",
+      "car_class": "568 B",
+      "country": "Canada",
+      "score": 8
+    },
+    "3190": {
+      "display_name": "2003 Ford F-150 SVT Lightning",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "474 C",
+      "country": "USA",
+      "score": 9
+    },
+    "3211": {
+      "display_name": "2019 Aston Martin DBS Superleggera",
+      "car_type": "Super GT",
+      "car_class": "736 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "3212": {
+      "display_name": "2019 Zenvo TSR-S",
+      "car_type": "Hypercars",
+      "car_class": "906 R",
+      "country": "Denmark",
+      "score": 25
+    },
+    "3214": {
+      "display_name": "2019 Porsche #70 Porsche Motorsport 935",
+      "car_type": "Extreme Track Toys",
+      "car_class": "853 S2",
+      "country": "Germany",
+      "score": 15
+    },
+    "3225": {
+      "display_name": "2018 Ferrari Portofino",
+      "car_type": "Super GT",
+      "car_class": "714 S1",
+      "country": "Italy",
+      "score": 22
+    },
+    "3226": {
+      "display_name": "2017 Ferrari J50",
+      "car_type": "Modern Supercars",
+      "car_class": "772 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3227": {
+      "display_name": "2019 Ferrari 488 Pista",
+      "car_type": "Track Toys",
+      "car_class": "803 S2",
+      "country": "Italy",
+      "score": 25
+    },
+    "3228": {
+      "display_name": "1999 Ford Racing Puma",
+      "car_type": "Retro Rally",
+      "car_class": "401 C",
+      "country": "USA",
+      "score": 25
+    },
+    "3232": {
+      "display_name": "2013 Formula Drift #777 Chevrolet Corvette",
+      "car_type": "Drift Cars",
+      "car_class": "760 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3235": {
+      "display_name": "1982 Volkswagen Pickup LX",
+      "car_type": "Utility Heroes",
+      "car_class": "100 D",
+      "country": "Germany",
+      "score": 9
+    },
+    "3241": {
+      "display_name": "2018 Subaru WRX STI ARX Supercar",
+      "car_type": "Rally Monsters",
+      "car_class": "757 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "3249": {
+      "display_name": "2018 Ferrari FXX-K Evo",
+      "car_type": "Extreme Track Toys",
+      "car_class": "957 R",
+      "country": "Italy",
+      "score": 9
+    },
+    "3250": {
+      "display_name": "2018 Mercedes-AMG E 63 S",
+      "car_type": "Modern Super Saloons",
+      "car_class": "674 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "3255": {
+      "display_name": "2020 Jeep JT",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "336 D",
+      "country": "USA",
+      "score": 9
+    },
+    "3257": {
+      "display_name": "1990 Nissan Pulsar GTI-R",
+      "car_type": "Retro Rally",
+      "car_class": "486 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "3277": {
+      "display_name": "2020 Ford Mustang Shelby GT500",
+      "car_type": "Modern Muscle",
+      "car_class": "734 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3287": {
+      "display_name": "1991 Jaguar Sport XJR-15",
+      "car_type": "Retro Supercars",
+      "car_class": "716 S1",
+      "country": "UK",
+      "score": 15
+    },
+    "3288": {
+      "display_name": "1993 Porsche 911 Turbo S Leichtbau",
+      "car_type": "Retro Sports Cars",
+      "car_class": "652 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "3289": {
+      "display_name": "2018 Lamborghini Aventador SVJ",
+      "car_type": "Hypercars",
+      "car_class": "794 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3293": {
+      "display_name": "1993 Jaguar XJ220S TWR",
+      "car_type": "Retro Supercars",
+      "car_class": "750 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "3307": {
+      "display_name": "2019 Nissan 370Z Nismo",
+      "car_type": "Modern Sports Cars",
+      "car_class": "603 A",
+      "country": "Japan",
+      "score": 9
+    },
+    "3311": {
+      "display_name": "2018 Ferrari FXX-K Evo",
+      "car_type": "Extreme Track Toys",
+      "car_class": "957 R",
+      "country": "Italy",
+      "score": 9
+    },
+    "3312": {
+      "display_name": "2019 Ferrari Monza SP2",
+      "car_type": "Super GT",
+      "car_class": "773 S1",
+      "country": "Italy",
+      "score": 12
+    },
+    "3315": {
+      "display_name": "2020 Koenigsegg Jesko",
+      "car_type": "Hypercars",
+      "car_class": "899 S2",
+      "country": "Sweden",
+      "score": 22
+    },
+    "3318": {
+      "display_name": "2018 Audi RS 4 Avant",
+      "car_type": "Modern Super Saloons",
+      "car_class": "637 A",
+      "country": "Germany",
+      "score": 28
+    },
+    "3359": {
+      "display_name": "2018 Audi RS 4 Avant",
+      "car_type": "Modern Super Saloons",
+      "car_class": "637 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "3363": {
+      "display_name": "1998 Nissan #23 Pennzoil NISMO Skyline GT-R",
+      "car_type": "Retro Racers",
+      "car_class": "848 S2",
+      "country": "Japan",
+      "score": 15
+    },
+    "3364": {
+      "display_name": "2021 Aston Martin DBX",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "618 A",
+      "country": "UK",
+      "score": 10
+    },
+    "3367": {
+      "display_name": "2020 Ferrari Roma",
+      "car_type": "Super GT",
+      "car_class": "735 S1",
+      "country": "Italy",
+      "score": 9
+    },
+    "3369": {
+      "display_name": "2020 Chevrolet Corvette Stingray Coupe",
+      "car_type": "Modern Supercars",
+      "car_class": "700 A",
+      "country": "USA",
+      "score": 12
+    },
+    "3371": {
+      "display_name": "2020 Lamborghini Huracán EVO",
+      "car_type": "Modern Supercars",
+      "car_class": "761 S1",
+      "country": "Italy",
+      "score": 25
+    },
+    "3373": {
+      "display_name": "2019 Toyota 4Runner TRD Pro",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "421 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "3374": {
+      "display_name": "2019 Toyota Tacoma TRD Pro",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "409 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "3395": {
+      "display_name": "1967 Renault 8 Gordini",
+      "car_type": "Classic Rally",
+      "car_class": "322 D",
+      "country": "France",
+      "score": 25
+    },
+    "3400": {
+      "display_name": "2009 Formula Drift #99 Mazda RX-8",
+      "car_type": "Drift Cars",
+      "car_class": "737 S1",
+      "country": "USA",
+      "score": 10
+    },
+    "3402": {
+      "display_name": "2020 Toyota GR Supra",
+      "car_type": "Modern Sports Cars",
+      "car_class": "616 A",
+      "country": "Japan",
+      "score": 15
+    },
+    "3404": {
+      "display_name": "2020 Ford #2069 Ford Performance Bronco R",
+      "car_type": "Offroad",
+      "car_class": "441 C",
+      "country": "USA",
+      "score": 18
+    },
+    "3411": {
+      "display_name": "1995 Formula Drift #34 Toyota Supra MkIV",
+      "car_type": "Drift Cars",
+      "car_class": "759 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3412": {
+      "display_name": "2019 Subaru STI S209",
+      "car_type": "Modern Rally",
+      "car_class": "574 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "3413": {
+      "display_name": "2010 Volkswagen Golf R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "526 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "3414": {
+      "display_name": "2020 Land Rover Defender 110 X",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "427 C",
+      "country": "UK",
+      "score": 13
+    },
+    "3434": {
+      "display_name": "2020 BMW M2 Competition Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "656 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "3439": {
+      "display_name": "2019 DeBerti Ford Super Duty F-250 Lariat 'Transformer'",
+      "car_type": "Unlimited Offroad",
+      "car_class": "548 B",
+      "country": "USA",
+      "score": 15
+    },
+    "3441": {
+      "display_name": "2019 DeBerti Toyota Tacoma TRD ‘The Performance Truck’",
+      "car_type": "Drift Cars",
+      "car_class": "717 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3445": {
+      "display_name": "2020 Porsche Taycan Turbo S",
+      "car_type": "Modern Super Saloons",
+      "car_class": "725 S1",
+      "country": "Germany",
+      "score": 28
+    },
+    "3449": {
+      "display_name": "2020 Lotus Evija",
+      "car_type": "Hypercars",
+      "car_class": "937 R",
+      "country": "UK",
+      "score": 22
+    },
+    "3454": {
+      "display_name": "2020 Audi RS 3 Sedan",
+      "car_type": "Modern Super Saloons",
+      "car_class": "617 A",
+      "country": "Germany",
+      "score": 28
+    },
+    "3476": {
+      "display_name": "2020 Ford Super Duty F-450 DRW PLATINUM",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "379 D",
+      "country": "USA",
+      "score": 18
+    },
+    "3477": {
+      "display_name": "2020 Chevrolet Silverado LT Trail Boss",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "449 C",
+      "country": "USA",
+      "score": 12
+    },
+    "3482": {
+      "display_name": "2021 McLaren 765LT Coupé",
+      "car_type": "Track Toys",
+      "car_class": "829 S2",
+      "country": "UK",
+      "score": 10
+    },
+    "3486": {
+      "display_name": "2012 Jeep Wrangler Rubicon",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "350 D",
+      "country": "USA",
+      "score": 12
+    },
+    "3498": {
+      "display_name": "2017 Saleen S7 LM",
+      "car_type": "Extreme Track Toys",
+      "car_class": "835 S2",
+      "country": "USA",
+      "score": 12
+    },
+    "3518": {
+      "display_name": "2020 BMW M8 Competition Coupé",
+      "car_type": "GT Cars",
+      "car_class": "684 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "3520": {
+      "display_name": "2021 Lexus LC 500",
+      "car_type": "GT Cars",
+      "car_class": "592 B",
+      "country": "USA",
+      "score": 25
+    },
+    "3523": {
+      "display_name": "2020 Formula Drift #151 Toyota GR Supra",
+      "car_type": "Drift Cars",
+      "car_class": "779 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3524": {
+      "display_name": "2019 Formula Drift #411 Toyota Corolla Hatchback",
+      "car_type": "Drift Cars",
+      "car_class": "754 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3533": {
+      "display_name": "2022 Volkswagen Golf R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "548 B",
+      "country": "Germany",
+      "score": 25
+    },
+    "3534": {
+      "display_name": "2021 MINI John Cooper Works GP",
+      "car_type": "Super Hot Hatch",
+      "car_class": "599 B",
+      "country": "UK",
+      "score": 9
+    },
+    "3539": {
+      "display_name": "2020 SIERRA Cars #23 Yokohama ALPHA",
+      "car_type": "Extreme Track Toys",
+      "car_class": "926 R",
+      "country": "USA",
+      "score": 16
+    },
+    "3540": {
+      "display_name": "2021 SIERRA Cars RX3",
+      "car_type": "UTV's",
+      "car_class": "635 A",
+      "country": "USA",
+      "score": 11
+    },
+    "3543": {
+      "display_name": "2021 Pagani Huayra R",
+      "car_type": "Extreme Track Toys",
+      "car_class": "954 R",
+      "country": "Italy",
+      "score": 10
+    },
+    "3548": {
+      "display_name": "2020 Porsche Taycan Turbo S",
+      "car_type": "Modern Super Saloons",
+      "car_class": "725 S1",
+      "country": "Germany",
+      "score": 8
+    },
+    "3549": {
+      "display_name": "2020 Jimco #179 Hammerhead Class 1",
+      "car_type": "Unlimited Buggies",
+      "car_class": "652 A",
+      "country": "USA",
+      "score": 11
+    },
+    "3551": {
+      "display_name": "2020 BMW M2 Competition Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "656 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "3554": {
+      "display_name": "2005 Mitsubishi #1 Sierra Sierra Enterprises Lancer Evolution Time Attack",
+      "car_type": "Extreme Track Toys",
+      "car_class": "962 R",
+      "country": "Japan",
+      "score": 12
+    },
+    "3580": {
+      "display_name": "2019 Aston Martin DBS Superleggera",
+      "car_type": "Super GT",
+      "car_class": "736 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "3583": {
+      "display_name": "2021 Audi RS 6 Avant",
+      "car_type": "Modern Super Saloons",
+      "car_class": "650 A",
+      "country": "Germany",
+      "score": 28
+    },
+    "3584": {
+      "display_name": "2021 Audi RS 7 Sportback",
+      "car_type": "Modern Super Saloons",
+      "car_class": "655 A",
+      "country": "Germany",
+      "score": 15
+    },
+    "3594": {
+      "display_name": "2020 Ferrari Roma",
+      "car_type": "Super GT",
+      "car_class": "735 S1",
+      "country": "Italy",
+      "score": 7
+    },
+    "3595": {
+      "display_name": "2020 Ferrari SF90 Stradale",
+      "car_type": "Hypercars",
+      "car_class": "851 S2",
+      "country": "Italy",
+      "score": 12
+    },
+    "3597": {
+      "display_name": "1986 Ford F-150 XLT Lariat",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "263 D",
+      "country": "USA",
+      "score": 10
+    },
+    "3599": {
+      "display_name": "2020 Gordon Murray Automotive T.50",
+      "car_type": "Hypercars",
+      "car_class": "871 S2",
+      "country": "UK",
+      "score": 12
+    },
+    "3600": {
+      "display_name": "2021 Hennessey Venom F5",
+      "car_type": "Hypercars",
+      "car_class": "870 S2",
+      "country": "USA",
+      "score": 12
+    },
+    "3603": {
+      "display_name": "2019 Casey Currie Motorsports #4402 Ultra 4 'Trophy Jeep'",
+      "car_type": "Unlimited Offroad",
+      "car_class": "641 A",
+      "country": "USA",
+      "score": 9
+    },
+    "3604": {
+      "display_name": "2019 Jimco #240 Fastball Racing Class 6100 Spec Trophy Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "511 B",
+      "country": "USA",
+      "score": 9
+    },
+    "3605": {
+      "display_name": "2019 Jimco #240 Fastball Racing Class 6100 Spec Trophy Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "511 B",
+      "country": "USA",
+      "score": 15
+    },
+    "3606": {
+      "display_name": "2021 Lamborghini Countach LPI 800-4",
+      "car_type": "Hypercars",
+      "car_class": "773 S1",
+      "country": "Italy",
+      "score": 9
+    },
+    "3608": {
+      "display_name": "2020 Lamborghini Sián Roadster",
+      "car_type": "Hypercars",
+      "car_class": "797 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3611": {
+      "display_name": "2022 Maserati MC20",
+      "car_type": "Modern Supercars",
+      "car_class": "753 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3616": {
+      "display_name": "2009 Mercedes-Benz SL 65 AMG Black Series",
+      "car_type": "Super GT",
+      "car_class": "699 A",
+      "country": "Germany",
+      "score": 8
+    },
+    "3617": {
+      "display_name": "2009 Mercedes-Benz SL 65 AMG Black Series",
+      "car_type": "Super GT",
+      "car_class": "699 A",
+      "country": "Germany",
+      "score": 11
+    },
+    "3622": {
+      "display_name": "2019 Nissan 370Z Nismo",
+      "car_type": "Modern Sports Cars",
+      "car_class": "603 A",
+      "country": "Japan",
+      "score": 9
+    },
+    "3625": {
+      "display_name": "2021 Rimac Nevera",
+      "car_type": "Hypercars",
+      "car_class": "913 R",
+      "country": "Croatia",
+      "score": 22
+    },
+    "3629": {
+      "display_name": "2021 Toyota GR Yaris",
+      "car_type": "Modern Rally",
+      "car_class": "558 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "3631": {
+      "display_name": "2022 Aston Martin Valkyrie AMR Pro",
+      "car_type": "Extreme Track Toys",
+      "car_class": "989 R",
+      "country": "UK",
+      "score": 13
+    },
+    "3645": {
+      "display_name": "2021 BMW M4 Competition Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "666 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "3650": {
+      "display_name": "2021 Mercedes-AMG Mercedes-AMG ONE",
+      "car_type": "Hypercars",
+      "car_class": "900 S2",
+      "country": "Germany",
+      "score": 6
+    },
+    "3655": {
+      "display_name": "2021 McLaren 620R",
+      "car_type": "Track Toys",
+      "car_class": "773 S1",
+      "country": "UK",
+      "score": 10
+    },
+    "3657": {
+      "display_name": "2022 Rivian R1T",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "607 A",
+      "country": "USA",
+      "score": 10
+    },
+    "3661": {
+      "display_name": "2018 Lotus Exige Cup 430",
+      "car_type": "Track Toys",
+      "car_class": "732 S1",
+      "country": "UK",
+      "score": 28
+    },
+    "3662": {
+      "display_name": "2021 RJ Anderson #37 Polaris RZR Pro 4 Truck",
+      "car_type": "Unlimited Offroad",
+      "car_class": "677 A",
+      "country": "USA",
+      "score": 14
+    },
+    "3665": {
+      "display_name": "2021 SIERRA Cars 700R",
+      "car_type": "UTV's",
+      "car_class": "346 D",
+      "country": "USA",
+      "score": 11
+    },
+    "3667": {
+      "display_name": "2021 Porsche 911 GT3",
+      "car_type": "Track Toys",
+      "car_class": "752 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "3668": {
+      "display_name": "2023 McLaren Artura",
+      "car_type": "Modern Supercars",
+      "car_class": "766 S1",
+      "country": "UK",
+      "score": 22
+    },
+    "3670": {
+      "display_name": "2001 Ford #4 Ford Focus RS",
+      "car_type": "Rally Monsters",
+      "car_class": "639 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3672": {
+      "display_name": "2020 Lamborghini Huracán STO",
+      "car_type": "Track Toys",
+      "car_class": "783 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3678": {
+      "display_name": "2020 Hyundai i30 N",
+      "car_type": "Super Hot Hatch",
+      "car_class": "553 B",
+      "country": "Korea",
+      "score": 12
+    },
+    "3686": {
+      "display_name": "2021 Polaris RZR Pro XP Factory Racing Limited Edition",
+      "car_type": "UTV's",
+      "car_class": "439 C",
+      "country": "USA",
+      "score": 9
+    },
+    "3687": {
+      "display_name": "2021 Polaris RZR Pro XP Factory Racing Limited Edition",
+      "car_type": "UTV's",
+      "car_class": "439 C",
+      "country": "USA",
+      "score": 12
+    },
+    "3692": {
+      "display_name": "2022 Ford F-150 Lightning",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "500 C",
+      "country": "USA",
+      "score": 28
+    },
+    "3693": {
+      "display_name": "2021 Alumicraft #122 Class 1 Buggy",
+      "car_type": "Unlimited Buggies",
+      "car_class": "571 B",
+      "country": "USA",
+      "score": 8
+    },
+    "3698": {
+      "display_name": "2021 Porsche Mission R",
+      "car_type": "Extreme Track Toys",
+      "car_class": "865 S2",
+      "country": "Germany",
+      "score": 10
+    },
+    "3700": {
+      "display_name": "2021 McLaren Sabre",
+      "car_type": "Hypercars",
+      "car_class": "787 S1",
+      "country": "UK",
+      "score": 22
+    },
+    "3716": {
+      "display_name": "2023 Lotus Emira",
+      "car_type": "Modern Sports Cars",
+      "car_class": "656 A",
+      "country": "UK",
+      "score": 22
+    },
+    "3719": {
+      "display_name": "2022 Cadillac CT4-V Blackwing",
+      "car_type": "Modern Muscle",
+      "car_class": "650 A",
+      "country": "USA",
+      "score": 9
+    },
+    "3720": {
+      "display_name": "2022 Cadillac CT4-V Blackwing",
+      "car_type": "Modern Muscle",
+      "car_class": "650 A",
+      "country": "USA",
+      "score": 9
+    },
+    "3722": {
+      "display_name": "2022 GMC HUMMER EV Pickup",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "610 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3724": {
+      "display_name": "2022 Ferrari 296 GTB",
+      "car_type": "Modern Supercars",
+      "car_class": "811 S2",
+      "country": "Italy",
+      "score": 25
+    },
+    "3726": {
+      "display_name": "2023 Acura Integra A-Spec",
+      "car_type": "Hot Hatch",
+      "car_class": "484 C",
+      "country": "USA",
+      "score": 12
+    },
+    "3728": {
+      "display_name": "2021 Bentley Continental GT Convertible",
+      "car_type": "GT Cars",
+      "car_class": "649 A",
+      "country": "UK",
+      "score": 12
+    },
+    "3735": {
+      "display_name": "2022 Subaru BRZ",
+      "car_type": "Modern Sports Cars",
+      "car_class": "551 B",
+      "country": "Japan",
+      "score": 22
+    },
+    "3736": {
+      "display_name": "2022 Ford Bronco Raptor",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "473 C",
+      "country": "USA",
+      "score": 25
+    },
+    "3737": {
+      "display_name": "2022 BMW iX xDrive50",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "595 B",
+      "country": "Germany",
+      "score": 10
+    },
+    "3744": {
+      "display_name": "2023 Formula Drift #64 Forsberg Racing Nissan Z",
+      "car_type": "Drift Cars",
+      "car_class": "783 S1",
+      "country": "USA",
+      "score": 9
+    },
+    "3745": {
+      "display_name": "2020 Audi R8 V10 performance",
+      "car_type": "Modern Supercars",
+      "car_class": "738 S1",
+      "country": "Germany",
+      "score": 10
+    },
+    "3750": {
+      "display_name": "1995 Mitsubishi Eclipse GSX",
+      "car_type": "Retro Sports Cars",
+      "car_class": "436 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "3753": {
+      "display_name": "2022 Lamborghini Huracán Tecnica",
+      "car_type": "Modern Supercars",
+      "car_class": "747 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3755": {
+      "display_name": "2022 Ford Supervan 4",
+      "car_type": "Extreme Track Toys",
+      "car_class": "919 R",
+      "country": "USA",
+      "score": 15
+    },
+    "3760": {
+      "display_name": "2022 Porsche 718 Cayman GT4 RS",
+      "car_type": "Track Toys",
+      "car_class": "737 S1",
+      "country": "Germany",
+      "score": 18
+    },
+    "3761": {
+      "display_name": "2022 Toyota GR86",
+      "car_type": "Modern Sports Cars",
+      "car_class": "556 B",
+      "country": "Japan",
+      "score": 10
+    },
+    "3763": {
+      "display_name": "2023 BMW M2",
+      "car_type": "Modern Super Saloons",
+      "car_class": "647 A",
+      "country": "Germany",
+      "score": 10
+    },
+    "3764": {
+      "display_name": "2022 BMW M5 CS",
+      "car_type": "Modern Super Saloons",
+      "car_class": "731 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "3766": {
+      "display_name": "2023 Chevrolet Corvette Z06",
+      "car_type": "Track Toys",
+      "car_class": "763 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3767": {
+      "display_name": "2022 Acura NSX Type S",
+      "car_type": "Modern Supercars",
+      "car_class": "734 S1",
+      "country": "USA",
+      "score": 28
+    },
+    "3771": {
+      "display_name": "2023 Chevrolet Corvette Z06",
+      "car_type": "Track Toys",
+      "car_class": "763 S1",
+      "country": "USA",
+      "score": 12
+    },
+    "3773": {
+      "display_name": "2023 Honda Civic Type R",
+      "car_type": "Super Hot Hatch",
+      "car_class": "620 A",
+      "country": "Japan",
+      "score": 28
+    },
+    "3774": {
+      "display_name": "1988 Lamborghini Countach LP5000 QV",
+      "car_type": "Retro Supercars",
+      "car_class": "622 A",
+      "country": "Italy",
+      "score": 7
+    },
+    "3775": {
+      "display_name": "2022 Lamborghini Aventador LP 780-4 Ultimae",
+      "car_type": "Hypercars",
+      "car_class": "794 S1",
+      "country": "Italy",
+      "score": 15
+    },
+    "3781": {
+      "display_name": "2023 Porsche 911 GT3 RS",
+      "car_type": "Track Toys",
+      "car_class": "758 S1",
+      "country": "Germany",
+      "score": 15
+    },
+    "3783": {
+      "display_name": "1989 Volkswagen Rallye Golf",
+      "car_type": "Retro Rally",
+      "car_class": "440 C",
+      "country": "Germany",
+      "score": 15
+    },
+    "3785": {
+      "display_name": "1997 Toyota Soarer 2.5 GT-T",
+      "car_type": "Retro Sports Cars",
+      "car_class": "491 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "3789": {
+      "display_name": "2022 Wuling Hongguang Mini EV",
+      "car_type": "Hot Hatch",
+      "car_class": "100 D",
+      "country": "China",
+      "score": 15
+    },
+    "3795": {
+      "display_name": "2023 Meyers Manx 2.0",
+      "car_type": "Buggies",
+      "car_class": "540 B",
+      "country": "USA",
+      "score": 12
+    },
+    "3798": {
+      "display_name": "2017 Mazda MX-5 Cup",
+      "car_type": "Track Toys",
+      "car_class": "586 B",
+      "country": "Japan",
+      "score": 18
+    },
+    "3811": {
+      "display_name": "2024 Lucid Air Sapphire",
+      "car_type": "Modern Super Saloons",
+      "car_class": "820 S2",
+      "country": "USA",
+      "score": 7
+    },
+    "3819": {
+      "display_name": "2022 Subaru WRX",
+      "car_type": "Modern Rally",
+      "car_class": "538 B",
+      "country": "Japan",
+      "score": 22
+    },
+    "3823": {
+      "display_name": "2022 Mazda MX-5 Miata RF",
+      "car_type": "Modern Sports Cars",
+      "car_class": "509 B",
+      "country": "Japan",
+      "score": 18
+    },
+    "3827": {
+      "display_name": "2023 Hyundai IONIQ 5 N",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "657 A",
+      "country": "Korea",
+      "score": 28
+    },
+    "3829": {
+      "display_name": "2022 Hyundai N Vision 74",
+      "car_type": "Track Toys",
+      "car_class": "692 A",
+      "country": "Korea",
+      "score": 12
+    },
+    "3840": {
+      "display_name": "2022 Lamborghini Huracán Sterrato",
+      "car_type": "Rally Monsters",
+      "car_class": "738 S1",
+      "country": "Italy",
+      "score": 10
+    },
+    "3846": {
+      "display_name": "2024 Ford Mustang GT",
+      "car_type": "Modern Muscle",
+      "car_class": "628 A",
+      "country": "USA",
+      "score": 25
+    },
+    "3847": {
+      "display_name": "2024 Ford Mustang Dark Horse",
+      "car_type": "Modern Muscle",
+      "car_class": "669 A",
+      "country": "USA",
+      "score": 28
+    },
+    "3848": {
+      "display_name": "2023 Toyota Camry TRD",
+      "car_type": "Modern Super Saloons",
+      "car_class": "525 B",
+      "country": "Japan",
+      "score": 25
+    },
+    "3849": {
+      "display_name": "2023 Ford F-150 Raptor R",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "536 B",
+      "country": "USA",
+      "score": 31
+    },
+    "3850": {
+      "display_name": "2021 Dodge Durango SRT Hellcat",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "628 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3851": {
+      "display_name": "1991 Toyota Sera",
+      "car_type": "Eclectic Domestics",
+      "car_class": "344 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3852": {
+      "display_name": "1991 Honda Beat",
+      "car_type": "Eclectic Domestics",
+      "car_class": "283 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3854": {
+      "display_name": "1993 Autozam AZ-1",
+      "car_type": "Eclectic Domestics",
+      "car_class": "342 D",
+      "country": "Japan",
+      "score": 11
+    },
+    "3855": {
+      "display_name": "1991 Nissan Figaro",
+      "car_type": "Eclectic Domestics",
+      "car_class": "234 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3856": {
+      "display_name": "1987 Nissan Be-1",
+      "car_type": "Eclectic Domestics",
+      "car_class": "175 D",
+      "country": "Japan",
+      "score": 25
+    },
+    "3858": {
+      "display_name": "1997 Nissan Stagea RS Four V",
+      "car_type": "Retro Super Saloons",
+      "car_class": "439 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "3859": {
+      "display_name": "1984 Honda City E II",
+      "car_type": "Eclectic Domestics",
+      "car_class": "203 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "3860": {
+      "display_name": "1989 Nissan PAO",
+      "car_type": "Eclectic Domestics",
+      "car_class": "145 D",
+      "country": "Japan",
+      "score": 9
+    },
+    "3865": {
+      "display_name": "1994 Honda Acty",
+      "car_type": "Eclectic Domestics",
+      "car_class": "100 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3880": {
+      "display_name": "2023 Toyota Camry TRD",
+      "car_type": "Modern Super Saloons",
+      "car_class": "525 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "3886": {
+      "display_name": "1995 Mitsubishi Lancer Evolution III GSR",
+      "car_type": "Retro Rally",
+      "car_class": "518 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "3891": {
+      "display_name": "2024 Lamborghini Revuelto",
+      "car_type": "Hypercars",
+      "car_class": "829 S2",
+      "country": "Italy",
+      "score": 22
+    },
+    "3895": {
+      "display_name": "2020 Mercedes-AMG SLC 43 Final Edition",
+      "car_type": "Modern Sports Cars",
+      "car_class": "620 A",
+      "country": "Germany",
+      "score": 15
+    },
+    "3903": {
+      "display_name": "2023 Ford Fiesta ST",
+      "car_type": "Hot Hatch",
+      "car_class": "500 C",
+      "country": "USA",
+      "score": 25
+    },
+    "3904": {
+      "display_name": "2022 Ford Focus ST",
+      "car_type": "Hot Hatch",
+      "car_class": "594 B",
+      "country": "USA",
+      "score": 25
+    },
+    "3908": {
+      "display_name": "2022 Honda e",
+      "car_type": "Hot Hatch",
+      "car_class": "398 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3910": {
+      "display_name": "2023 Porsche 911 GT3 RS",
+      "car_type": "Track Toys",
+      "car_class": "758 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "3914": {
+      "display_name": "1991 Toyota Chaser GT Twin Turbo",
+      "car_type": "Retro Super Saloons",
+      "car_class": "484 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "3917": {
+      "display_name": "2023 Audi R8 Coupé V10 GT RWD",
+      "car_type": "Modern Supercars",
+      "car_class": "769 S1",
+      "country": "Germany",
+      "score": 12
+    },
+    "3918": {
+      "display_name": "1995 Nissan Gloria Gran Turismo",
+      "car_type": "Retro Super Saloons",
+      "car_class": "498 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "3921": {
+      "display_name": "2024 Nissan GT-R Nismo",
+      "car_type": "Track Toys",
+      "car_class": "741 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "3928": {
+      "display_name": "2022 Hyundai N Vision 74",
+      "car_type": "Track Toys",
+      "car_class": "692 A",
+      "country": "Korea",
+      "score": 12
+    },
+    "3929": {
+      "display_name": "1989 Nissan PAO",
+      "car_type": "Eclectic Domestics",
+      "car_class": "145 D",
+      "country": "Japan",
+      "score": 22
+    },
+    "3933": {
+      "display_name": "1997 Toyota Chaser 2.5 Tourer V",
+      "car_type": "Retro Super Saloons",
+      "car_class": "504 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "3953": {
+      "display_name": "2023 Porsche 911 Turbo S",
+      "car_type": "Modern Supercars",
+      "car_class": "774 S1",
+      "country": "Germany",
+      "score": 28
+    },
+    "3955": {
+      "display_name": "2024 Ram 1500 TRX",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "514 B",
+      "country": "USA",
+      "score": 12
+    },
+    "3959": {
+      "display_name": "2022 Dodge Challenger SRT Super Stock",
+      "car_type": "Modern Muscle",
+      "car_class": "695 A",
+      "country": "USA",
+      "score": 15
+    },
+    "3960": {
+      "display_name": "1994 Subaru Vivio RX-R",
+      "car_type": "Eclectic Domestics",
+      "car_class": "281 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "3983": {
+      "display_name": "2024 BMW X6 M Competition",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "672 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "3999": {
+      "display_name": "2002 Nissan Silvia Spec-R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "551 B",
+      "country": "Japan",
+      "score": 28
+    },
+    "4038": {
+      "display_name": "1999 Toyota Altezza RS200 Z EDITION",
+      "car_type": "Retro Super Saloons",
+      "car_class": "461 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "4055": {
+      "display_name": "1996 Toyota Starlet Glanza V",
+      "car_type": "Retro Hot Hatch",
+      "car_class": "435 C",
+      "country": "Japan",
+      "score": 15
+    },
+    "4057": {
+      "display_name": "1997 Nissan Skyline GT-R V-Spec",
+      "car_type": "Retro Sports Cars",
+      "car_class": "555 B",
+      "country": "Japan",
+      "score": 18
+    },
+    "4069": {
+      "display_name": "1988 BMW M3",
+      "car_type": "Retro Super Saloons",
+      "car_class": "474 C",
+      "country": "Germany",
+      "score": 10
+    },
+    "4081": {
+      "display_name": "2024 Koenigsegg Gemera",
+      "car_type": "Hypercars",
+      "car_class": "900 S2",
+      "country": "Sweden",
+      "score": 22
+    },
+    "4084": {
+      "display_name": "1972 Datsun #269 Attacking the Clock Racing 240Z 'All Carbon Hill Climb Beast'",
+      "car_type": "Extreme Track Toys",
+      "car_class": "951 R",
+      "country": "Japan",
+      "score": 13
+    },
+    "4085": {
+      "display_name": "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
+      "car_type": "Track Toys",
+      "car_class": "166 D",
+      "country": "Japan",
+      "score": 15
+    },
+    "4090": {
+      "display_name": "2001 Mitsubishi Lancer Evolution VI GSR TM Edition",
+      "car_type": "Retro Rally",
+      "car_class": "574 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "4094": {
+      "display_name": "2024 Nissan GT-R Nismo",
+      "car_type": "Track Toys",
+      "car_class": "741 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "4114": {
+      "display_name": "1992 Nissan Skyline GT-R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "541 B",
+      "country": "Japan",
+      "score": 28
+    },
+    "4119": {
+      "display_name": "1998 Nissan #23 Pennzoil NISMO Skyline GT-R",
+      "car_type": "Retro Racers",
+      "car_class": "848 S2",
+      "country": "Japan",
+      "score": 12
+    },
+    "4124": {
+      "display_name": "2013 Mercedes-Benz G 65 AMG",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "530 B",
+      "country": "Germany",
+      "score": 19
+    },
+    "4125": {
+      "display_name": "1994 Honda Acty",
+      "car_type": "Eclectic Domestics",
+      "car_class": "100 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4126": {
+      "display_name": "2022 Honda e",
+      "car_type": "Hot Hatch",
+      "car_class": "398 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4127": {
+      "display_name": "1995 Mitsubishi Eclipse GSX",
+      "car_type": "Retro Sports Cars",
+      "car_class": "436 C",
+      "country": "Japan",
+      "score": 9
+    },
+    "4128": {
+      "display_name": "2022 Subaru WRX",
+      "car_type": "Modern Rally",
+      "car_class": "538 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "4129": {
+      "display_name": "1997 Nissan Stagea RS Four V",
+      "car_type": "Retro Super Saloons",
+      "car_class": "439 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "4144": {
+      "display_name": "1992 Mazda RX-7 Type R",
+      "car_type": "Retro Sports Cars",
+      "car_class": "548 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "4145": {
+      "display_name": "1974 Mazda #123 Mad Mike 808 Wagon 'FURSTY'",
+      "car_type": "Drift Cars",
+      "car_class": "702 S1",
+      "country": "Japan",
+      "score": 18
+    },
+    "4158": {
+      "display_name": "2010 Lexus LFA",
+      "car_type": "Modern Supercars",
+      "car_class": "699 A",
+      "country": "USA",
+      "score": 9
+    },
+    "4160": {
+      "display_name": "1989 Nissan PAO",
+      "car_type": "Eclectic Domestics",
+      "car_class": "145 D",
+      "country": "Japan",
+      "score": 9
+    },
+    "4162": {
+      "display_name": "1985 Toyota Sprinter Trueno GT Apex",
+      "car_type": "Retro Sports Cars",
+      "car_class": "376 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4163": {
+      "display_name": "2022 Wuling Hongguang Mini EV",
+      "car_type": "Hot Hatch",
+      "car_class": "100 D",
+      "country": "China",
+      "score": 7
+    },
+    "4164": {
+      "display_name": "2022 Subaru BRZ",
+      "car_type": "Modern Sports Cars",
+      "car_class": "551 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "4165": {
+      "display_name": "1973 Mazda RX-3",
+      "car_type": "Classic Sports Cars",
+      "car_class": "328 D",
+      "country": "Japan",
+      "score": 15
+    },
+    "4166": {
+      "display_name": "2023 BMW M2",
+      "car_type": "Modern Super Saloons",
+      "car_class": "647 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "4167": {
+      "display_name": "2012 Nissan GT-R Black Edition (R35)",
+      "car_type": "Modern Supercars",
+      "car_class": "703 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "4168": {
+      "display_name": "1968 Ford Mustang GT 2+2 Fastback",
+      "car_type": "Classic Muscle",
+      "car_class": "394 D",
+      "country": "USA",
+      "score": 15
+    },
+    "4169": {
+      "display_name": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II",
+      "car_type": "Retro Super Saloons",
+      "car_class": "460 C",
+      "country": "Germany",
+      "score": 13
+    },
+    "4171": {
+      "display_name": "1986 Ford F-150 XLT Lariat",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "263 D",
+      "country": "USA",
+      "score": 10
+    },
+    "4175": {
+      "display_name": "2020 Ford Super Duty F-450 DRW PLATINUM",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "379 D",
+      "country": "USA",
+      "score": 15
+    },
+    "4179": {
+      "display_name": "1990 Nissan #12 Skyline GT-R (BNR32 Gr.A) JTC",
+      "car_type": "Retro Racers",
+      "car_class": "858 S2",
+      "country": "Japan",
+      "score": 15
+    },
+    "4197": {
+      "display_name": "1994 Mazda MX-5 Miata",
+      "car_type": "Retro Sports Cars",
+      "car_class": "329 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4198": {
+      "display_name": "1999 Dodge Viper GTS ACR",
+      "car_type": "Retro Muscle",
+      "car_class": "598 B",
+      "country": "USA",
+      "score": 12
+    },
+    "4199": {
+      "display_name": "2019 Toyota Tacoma TRD Pro",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "409 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "4200": {
+      "display_name": "2020 Lotus Evija",
+      "car_type": "Hypercars",
+      "car_class": "937 R",
+      "country": "UK",
+      "score": 12
+    },
+    "4210": {
+      "display_name": "2018 Lotus Exige Cup 430",
+      "car_type": "Track Toys",
+      "car_class": "732 S1",
+      "country": "UK",
+      "score": 12
+    },
+    "4211": {
+      "display_name": "1990 Honda #19 101 Motorsport CRX WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "877 S2",
+      "country": "Japan",
+      "score": 12
+    },
+    "4212": {
+      "display_name": "1993 Nissan #32 Skyline WTAC 'Xtreme GTR'",
+      "car_type": "Extreme Track Toys",
+      "car_class": "923 R",
+      "country": "Japan",
+      "score": 15
+    },
+    "4213": {
+      "display_name": "2000 Nissan #36 Dream Project S15 Silvia WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "996 R",
+      "country": "Japan",
+      "score": 15
+    },
+    "4214": {
+      "display_name": "1995 Toyota J&J Motorsport Supra WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "828 S2",
+      "country": "Japan",
+      "score": 12
+    },
+    "4216": {
+      "display_name": "1994 Honda Acty",
+      "car_type": "Eclectic Domestics",
+      "car_class": "100 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4222": {
+      "display_name": "1989 Nissan Silvia K's",
+      "car_type": "Retro Sports Cars",
+      "car_class": "455 C",
+      "country": "Japan",
+      "score": 12
+    },
+    "4223": {
+      "display_name": "2000 Nissan Skyline GT-R V Spec II",
+      "car_type": "Retro Sports Cars",
+      "car_class": "590 B",
+      "country": "Japan",
+      "score": 15
+    },
+    "4231": {
+      "display_name": "2004 Honda #52 Evasive Motorsports S2000 WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "888 S2",
+      "country": "Japan",
+      "score": 12
+    },
+    "4232": {
+      "display_name": "2005 Porsche Cayman GT3 WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "856 S2",
+      "country": "Germany",
+      "score": 12
+    },
+    "4234": {
+      "display_name": "2008 Honda Civic Type R (FD2)",
+      "car_type": "Retro Super Saloons",
+      "car_class": "514 B",
+      "country": "Japan",
+      "score": 18
+    },
+    "4250": {
+      "display_name": "1985 Toyota Sprinter Trueno GT Apex",
+      "car_type": "Retro Sports Cars",
+      "car_class": "376 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4251": {
+      "display_name": "2003 Honda S2000",
+      "car_type": "Modern Sports Cars",
+      "car_class": "503 B",
+      "country": "Japan",
+      "score": 9
+    },
+    "4252": {
+      "display_name": "1998 Subaru Impreza 22B-STi Version",
+      "car_type": "Retro Rally",
+      "car_class": "600 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "4254": {
+      "display_name": "2001 Honda #33 Integra WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "860 S2",
+      "country": "Japan",
+      "score": 15
+    },
+    "4255": {
+      "display_name": "2005 Toyota Crown Super Deluxe Taxi",
+      "car_type": "Retro Super Saloons",
+      "car_class": "181 D",
+      "country": "Japan",
+      "score": 15
+    },
+    "4257": {
+      "display_name": "2017 Toyota JPN Taxi",
+      "car_type": "Eclectic Domestics",
+      "car_class": "248 D",
+      "country": "Japan",
+      "score": 9
+    },
+    "4259": {
+      "display_name": "2013 Toyota 86 Stories",
+      "car_type": "Track Toys",
+      "car_class": "685 A",
+      "country": "Japan",
+      "score": 15
+    },
+    "4260": {
+      "display_name": "2024 Nissan GT-R Nismo",
+      "car_type": "Track Toys",
+      "car_class": "741 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "4261": {
+      "display_name": "1995 Porsche 911 GT2",
+      "car_type": "Retro Supercars",
+      "car_class": "644 A",
+      "country": "Germany",
+      "score": 12
+    },
+    "4264": {
+      "display_name": "2018 Ferrari FXX-K Evo",
+      "car_type": "Extreme Track Toys",
+      "car_class": "957 R",
+      "country": "Italy",
+      "score": 9
+    },
+    "4265": {
+      "display_name": "2009 Mercedes-Benz SL 65 AMG Black Series",
+      "car_type": "Super GT",
+      "car_class": "699 A",
+      "country": "Germany",
+      "score": 8
+    },
+    "4266": {
+      "display_name": "2021 BMW M4 Competition Coupé",
+      "car_type": "Modern Super Saloons",
+      "car_class": "666 A",
+      "country": "Germany",
+      "score": 9
+    },
+    "4267": {
+      "display_name": "2004 Mitsubishi Lancer Evolution VIII MR",
+      "car_type": "Modern Rally",
+      "car_class": "555 B",
+      "country": "Japan",
+      "score": 12
+    },
+    "4268": {
+      "display_name": "2023 Ford F-150 Raptor R",
+      "car_type": "Pickups & 4x4's",
+      "car_class": "536 B",
+      "country": "USA",
+      "score": 18
+    },
+    "4277": {
+      "display_name": "1992 Honda #21 Hardrace/JDMYard Civic WTAC",
+      "car_type": "Extreme Track Toys",
+      "car_class": "913 R",
+      "country": "Japan",
+      "score": 15
+    },
+    "4278": {
+      "display_name": "2025 Toyota Land Cruiser",
+      "car_type": "Sports Utility Heroes",
+      "car_class": "456 C",
+      "country": "Japan",
+      "score": 25
+    },
+    "4287": {
+      "display_name": "1994 Subaru Vivio RX-R",
+      "car_type": "Eclectic Domestics",
+      "car_class": "281 D",
+      "country": "Japan",
+      "score": 12
+    },
+    "4303": {
+      "display_name": "2012 Nissan GT-R Black Edition (R35)",
+      "car_type": "Modern Supercars",
+      "car_class": "703 S1",
+      "country": "Japan",
+      "score": 9
+    },
+    "4313": {
+      "display_name": "1970 Porsche #3 917 LH",
+      "car_type": "Classic Racers",
+      "car_class": "777 S1",
+      "country": "Germany",
+      "score": 15
+    },
+    "4315": {
+      "display_name": "1962 Peel P50 Trolli Edition",
+      "car_type": "Cult Cars",
+      "car_class": "100 D",
+      "country": "UK",
+      "score": 12
+    },
+    "4332": {
+      "display_name": "2005 Toyota Crown Super Deluxe Taxi",
+      "car_type": "Retro Super Saloons",
+      "car_class": "181 D",
+      "country": "Japan",
+      "score": 15
+    },
+    "4333": {
+      "display_name": "2017 Toyota JPN Taxi",
+      "car_type": "Eclectic Domestics",
+      "car_class": "248 D",
+      "country": "Japan",
+      "score": 9
+    },
+    "4341": {
+      "display_name": "2017 Ferrari 812 Superfast",
+      "car_type": "Super GT",
+      "car_class": "780 S1",
+      "country": "Italy",
+      "score": 9
+    },
+    "4342": {
+      "display_name": "1965 Toyota Sports 800 Fanta Edition",
+      "car_type": "Classic Sports Cars",
+      "car_class": "141 D",
+      "country": "Japan",
+      "score": 18
+    }
+  }
+}

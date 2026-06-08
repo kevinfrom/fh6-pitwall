@@ -260,11 +260,11 @@ function buildPacket(): Buffer {
   f32(state.suspFR * 0.15)  // suspensionTravelMetersFrontRight
   f32(state.suspRL * 0.15)  // suspensionTravelMetersRearLeft
   f32(state.suspRR * 0.15)  // suspensionTravelMetersRearRight
-  s32(1234)                 // carOrdinal
+  s32(3118)                 // carOrdinal
   s32(4)                    // carClass (S class)
-  s32(750)                  // carPerformanceIndex
+  s32(850)                  // carPerformanceIndex
   s32(1)                    // drivetrainType (RWD)
-  s32(6)                    // numCylinders
+  s32(8)                    // numCylinders
   u32(1)                    // carGroup
   f32(0)                    // smashableVelDiff
   f32(0)                    // smashableMass
