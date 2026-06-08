@@ -1,75 +1,40 @@
-# Nuxt Minimal Starter
+# Pitwall
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A real-time telemetry dashboard for Forza Horizon 6, designed to run on a second monitor while you play.
+
+## How it works
+
+Forza Horizon 6 sends UDP data via it's **Data Out** feature. You configure FH6 to send data to your installation of Pitwall, which then creates a realtime dashboard for you.
+
+### Modes
+
+Pitwall has four modes:
+
+- **Race**: See your speed, power, throttle, bake, gearing and steering
+- **Drift**: Are you sideways? How much? Are you counter-steering?
+- **Drag**: 0-100 km/h timer, speed, gear, launch, power and do you have grip?
+- **Spotter**: Shows your race position, lap number, lap times and delta to best lap
 
 ## Setup
 
-Make sure to install dependencies:
+### Installation
 
-```bash
-# npm
-npm install
+TBD!
 
-# pnpm
-pnpm install
+### Configure Data Out
 
-# yarn
-yarn install
+Once you've installed Pitwall and launched it, you need to configure FH6 to use Pitwall for Data Out:
 
-# bun
-bun install
-```
+1- Open your FH6 settings in-game
+2- Go to **HUD and Gameplay** and scroll down to **Data Out**
+3- Set **Data Out** to **On*
+4- Set **Data Out IP Address** to **127.0.0.1** (localhost/your own machine)
+5- Set **Data Out Port** to the configured port in your `.env` file we configured earlier (defaults to `9999`).
 
-## Development Server
+Now open Pitwall in your browser and start playing FH6. FH6 only sends data while actively driving - not in menus, when the game is paused, or during replays.
 
-Start the development server on `http://localhost:3000`:
+## Issues
 
-```bash
-# npm
-npm run dev
+If you're having any issues, please let me know by creating an issue here on GitHub!
 
-# pnpm
-pnpm dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
