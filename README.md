@@ -19,7 +19,13 @@ Pitwall has four modes:
 
 ### Installation
 
-TBD!
+Pitwall ships as a single portable `.exe` for Windows — no installer, no setup.
+
+1. Go to the [Releases](https://github.com/kevinfrom/fh6-pitwall/releases) page and download the latest `FH6-Pitwall-*.exe`.
+2. Double-click it to launch. A Pitwall window opens with the dashboard.
+3. The first time you run it, **Windows Firewall** will ask whether to allow Pitwall to receive data. Click **Allow access** — this lets FH6's telemetry reach Pitwall. (Allowing it on private networks is enough.)
+
+That's it. You can put the `.exe` anywhere (Desktop, a games folder, etc.) and run it whenever you want to use Pitwall.
 
 ### Configure Data Out
 
@@ -29,7 +35,7 @@ Once you've installed Pitwall and launched it, you need to configure FH6 to use 
 2- Go to **HUD and Gameplay** and scroll down to **Data Out**
 3- Set **Data Out** to **On*
 4- Set **Data Out IP Address** to **127.0.0.1** (localhost/your own machine)
-5- Set **Data Out Port** to the configured port in your `.env` file we configured earlier (defaults to `9999`).
+5- Set **Data Out Port** to `9999`.
 
 Now open Pitwall in your browser and start playing FH6. FH6 only sends data while actively driving - not in menus, when the game is paused, or during replays.
 

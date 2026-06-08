@@ -220,7 +220,7 @@ watch(carIdentityKey, async (identityKey) => {
       <span>{{ streamStatusLabel }}</span>
       <a
         class="github-link"
-        href="https://github.com/kevinfrom/ph6-pitwall"
+        href="https://github.com/kevinfrom/fh6-pitwall"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Open GitHub repository"
@@ -242,7 +242,7 @@ watch(carIdentityKey, async (identityKey) => {
           <path d="M12 4.5a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.5a1 1 0 0 1 1-1Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6ZM4.22 6.34a1 1 0 0 1 1.41 0l1.06 1.06a1 1 0 1 1-1.41 1.41L4.22 7.75a1 1 0 0 1 0-1.41ZM5.5 12a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h1.5a1 1 0 0 1 1 1Zm1.19 4.6-1.06 1.06a1 1 0 1 1-1.41-1.41l1.06-1.06a1 1 0 1 1 1.41 1.41ZM12 18.5a1 1 0 0 1 1 1V21a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1Zm5.31-1.84 1.06 1.06a1 1 0 1 1-1.41 1.41l-1.06-1.06a1 1 0 1 1 1.41-1.41ZM20.5 12a1 1 0 0 1 1-1H23a1 1 0 1 1 0 2h-1.5a1 1 0 0 1-1-1Zm-2.67-5.14a1 1 0 0 1 0-1.41l1.06-1.06a1 1 0 1 1 1.41 1.41l-1.06 1.06a1 1 0 0 1-1.41 0Z" />
         </svg>
       </button>
-      <button class="help-btn" aria-label="Setup help" @click="showHelp = !showHelp">?</button>
+      <button class="help-btn" aria-label="Setup help" @click="showHelp = true">?</button>
     </div>
 
     <div v-if="showSettings" class="modal-backdrop" @click.self="showSettings = false">
@@ -326,14 +326,20 @@ watch(carIdentityKey, async (identityKey) => {
       </section>
     </div>
 
-    <div v-if="showHelp" class="help-panel">
-      <p class="help-title">FH6 Data Out setup</p>
-      <p class="help-body">In Forza Horizon 6, go to <strong>Settings &rarr; HUD and Gameplay</strong> and configure the following:</p>
-      <div class="help-row"><span class="help-key">Data Out</span><span class="help-val">On</span></div>
-      <div class="help-row"><span class="help-key">Data Out IP Address</span><span class="help-val">127.0.0.1</span></div>
-      <div class="help-row"><span class="help-key">Data Out IP Port</span><span class="help-val">{{ fh6UdpPort }}</span></div>
-      <p class="help-note">Data is only sent while actively driving — not in menus or paused.</p>
-      <button class="help-close" @click="showHelp = false">Got it</button>
+    <div v-if="showHelp" class="modal-backdrop" @click.self="showHelp = false">
+      <section class="settings-modal" aria-modal="true" role="dialog" aria-labelledby="help-title">
+        <div class="modal-title-row">
+          <h2 id="help-title">FH6 Data Out setup</h2>
+          <button class="modal-close" aria-label="Close help" @click="showHelp = false">x</button>
+        </div>
+
+        <p class="help-body">In Forza Horizon 6, go to <strong>Settings &rarr; HUD and Gameplay</strong> and configure the following:</p>
+        <div class="help-row"><span class="help-key">Data Out</span><span class="help-val">On</span></div>
+        <div class="help-row"><span class="help-key">Data Out IP Address</span><span class="help-val">127.0.0.1</span></div>
+        <div class="help-row"><span class="help-key">Data Out IP Port</span><span class="help-val">{{ fh6UdpPort }}</span></div>
+        <p class="help-note">Data is only sent while actively driving — not in menus or paused.</p>
+        <button class="help-close" @click="showHelp = false">Got it</button>
+      </section>
     </div>
 
     <p class="section-label">Current car</p>
@@ -740,9 +746,7 @@ watch(carIdentityKey, async (identityKey) => {
 .segmented-control { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; background: var(--pw-surface); border-radius: 8px; border: 0.5px solid var(--pw-border); }
 .segment-btn { min-height: 32px; border: 0; border-radius: 6px; background: transparent; color: var(--pw-text-secondary); font-size: 13px; font-weight: 500; cursor: pointer; }
 .segment-btn--active { background: var(--pw-bg); color: var(--pw-text); box-shadow: 0 1px 2px rgb(0 0 0 / 0.08); }
-.help-panel { background: var(--pw-surface); border-radius: 8px; border: 0.5px solid var(--pw-border); padding: 1rem; margin-bottom: 1.25rem; }
-.help-title { font-size: 14px; font-weight: 500; margin: 0 0 0.5rem; }
-.help-body { font-size: 13px; color: var(--pw-text-secondary); margin: 0 0 0.75rem; }
+.help-body { font-size: 13px; color: var(--pw-text-secondary); margin: 0.75rem 0; }
 .help-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-top: 0.5px solid var(--pw-border); }
 .help-key { font-size: 12px; color: var(--pw-text-muted); }
 .help-val { font-size: 13px; font-weight: 500; font-family: monospace; color: var(--pw-text-mono); }
