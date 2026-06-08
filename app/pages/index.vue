@@ -4,8 +4,7 @@
 
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <TelemetryDashboard />
   </div>
 </template>
 
