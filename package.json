@@ -1,6 +1,8 @@
 {
   "name": "fh6-pitwall",
   "version": "0.1.0",
+  "description": "A real-time telemetry dashboard for Forza Horizon 6.",
+  "author": "Kevin From <software@fromsoftware.dk>",
   "type": "module",
   "private": true,
   "main": "electron/main.cjs",
@@ -29,6 +31,7 @@
     "appId": "dk.fromsoftware.fh6pitwall",
     "productName": "FH6 Pitwall",
     "asar": true,
+    "npmRebuild": false,
     "directories": {
       "output": "dist-electron"
     },
