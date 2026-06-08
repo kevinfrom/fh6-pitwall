@@ -297,12 +297,7 @@ watch(carIdentityKey, async (identityKey) => {
       <div class="car-card-main">
         <p class="car-name">{{ carDisplayName }}</p>
         <p class="car-subtitle">{{ carGroupDisplayName }}</p>
-      </div>
-      <div class="car-card-meta">
-        <span><strong>{{ data?.carOrdinal ?? '--' }}</strong><small>ID</small></span>
-        <span><strong>{{ carClassLabel }} {{ data?.carPerformanceIndex ?? '--' }}</strong><small>Class</small></span>
-        <span><strong>{{ drivetrainLabel }}</strong><small>Drive</small></span>
-        <span><strong>{{ data?.numCylinders ?? '--' }}</strong><small>Cyl</small></span>
+        <p class="car-specs">{{ carClassLabel }} {{ data?.carPerformanceIndex ?? '--' }} - {{ drivetrainLabel }}</p>
       </div>
     </div>
 
@@ -620,10 +615,7 @@ watch(carIdentityKey, async (identityKey) => {
 .car-card-main { min-width: 0; }
 .car-name { margin: 0; color: var(--pw-text); font-size: 15px; font-weight: 600; line-height: 1.2; overflow-wrap: anywhere; }
 .car-subtitle { margin: 3px 0 0; color: var(--pw-text-muted); font-size: 12px; line-height: 1.2; overflow-wrap: anywhere; }
-.car-card-meta { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.car-card-meta span { min-width: 0; border-left: 0.5px solid var(--pw-border); padding-left: 8px; }
-.car-card-meta strong { display: block; color: var(--pw-text-mono); font-family: monospace; font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
-.car-card-meta small { display: block; margin-top: 2px; color: var(--pw-text-muted); font-size: 9px; text-transform: uppercase; }
+.car-specs { margin: 6px 0 0; color: var(--pw-text-mono); font-family: monospace; font-size: 13px; font-weight: 600; line-height: 1.2; overflow-wrap: anywhere; }
 
 .mode-switcher { display: flex; gap: 8px; margin-bottom: 1.25rem; }
 .mode-btn { flex: 1; padding: 8px; border-radius: 8px; border: 0.5px solid var(--pw-border-subtle); background: transparent; font-size: 13px; font-weight: 500; cursor: pointer; }
@@ -713,6 +705,5 @@ watch(carIdentityKey, async (identityKey) => {
 
 @media (max-width: 560px) {
   .car-card { grid-template-columns: 1fr; }
-  .car-card-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 </style>
