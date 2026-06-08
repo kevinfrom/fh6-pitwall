@@ -1,6 +1,11 @@
+<script lang="ts" setup>
+
+</script>
+
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <TelemetryDashboard />
   </div>
 </template>
+
