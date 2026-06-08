@@ -57,6 +57,7 @@ const torqueUnitSetting = ref<TorqueUnit>('nm')
 const temperatureUnitSetting = ref<TemperatureUnit>('c')
 const carDetails = ref<CarLookupResponse | null>(null)
 let carDetailsRequestId = 0
+const { theme, toggleTheme } = useTheme()
 
 const {
   data,
@@ -231,6 +232,14 @@ watch(carIdentityKey, async (identityKey) => {
       <button class="settings-btn" aria-label="Settings" @click="showSettings = true">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M19.43 12.98c.04-.32.07-.65.07-.98s-.02-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1a7.28 7.28 0 0 0-1.69-.98l-.38-2.65A.49.49 0 0 0 14 2h-4a.49.49 0 0 0-.49.42l-.38 2.65c-.61.24-1.18.56-1.69.98l-2.49-1a.5.5 0 0 0-.61.22l-2 3.46c-.12.22-.07.49.12.64l2.11 1.65c-.04.32-.08.65-.08.98s.03.66.08.98l-2.11 1.65a.5.5 0 0 0-.12.64l2 3.46c.13.22.39.31.61.22l2.49-1c.51.4 1.08.73 1.69.98l.38 2.65c.04.24.25.42.49.42h4c.24 0 .45-.18.49-.42l.38-2.65c.61-.25 1.18-.58 1.69-.98l2.49 1c.22.09.48 0 .61-.22l2-3.46a.5.5 0 0 0-.12-.64l-2.11-1.65ZM12 15.5A3.5 3.5 0 1 1 12 8a3.5 3.5 0 0 1 0 7.5Z" />
+        </svg>
+      </button>
+      <button class="theme-btn" :aria-label="`Switch to ${theme.value === 'dark' ? 'light' : 'dark'} mode`" :title="`Switch to ${theme.value === 'dark' ? 'light' : 'dark'} mode`" @click="toggleTheme">
+        <svg v-if="theme.value === 'dark'" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />
+        </svg>
+        <svg v-else viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 4.5a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.5a1 1 0 0 1 1-1Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6ZM4.22 6.34a1 1 0 0 1 1.41 0l1.06 1.06a1 1 0 1 1-1.41 1.41L4.22 7.75a1 1 0 0 1 0-1.41ZM5.5 12a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h1.5a1 1 0 0 1 1 1Zm1.19 4.6-1.06 1.06a1 1 0 1 1-1.41-1.41l1.06-1.06a1 1 0 1 1 1.41 1.41ZM12 18.5a1 1 0 0 1 1 1V21a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1Zm5.31-1.84 1.06 1.06a1 1 0 1 1-1.41 1.41l-1.06-1.06a1 1 0 1 1 1.41-1.41ZM20.5 12a1 1 0 0 1 1-1H23a1 1 0 1 1 0 2h-1.5a1 1 0 0 1-1-1Zm-2.67-5.14a1 1 0 0 1 0-1.41l1.06-1.06a1 1 0 1 1 1.41 1.41l-1.06 1.06a1 1 0 0 1-1.41 0Z" />
         </svg>
       </button>
       <button class="help-btn" aria-label="Setup help" @click="showHelp = !showHelp">?</button>
@@ -707,13 +716,16 @@ watch(carIdentityKey, async (identityKey) => {
 
 .github-link,
 .settings-btn,
+.theme-btn,
 .help-btn { width: 20px; height: 20px; border-radius: 50%; border: 0.5px solid var(--pw-border-subtle); background: transparent; color: var(--pw-text-muted); cursor: pointer; line-height: 1; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
 .github-link { margin-left: auto; }
 .github-link svg { width: 13px; height: 13px; fill: currentColor; }
 .settings-btn svg { width: 14px; height: 14px; fill: currentColor; }
+.theme-btn svg { width: 13px; height: 13px; fill: currentColor; }
 .help-btn { font-size: 12px; font-weight: 500; }
 .github-link:hover,
 .settings-btn:hover,
+.theme-btn:hover,
 .help-btn:hover { background: var(--pw-surface); }
 
 .modal-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center; padding: 1rem; background: rgb(0 0 0 / 0.45); }
